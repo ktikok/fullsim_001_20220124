@@ -3,6 +3,9 @@
 #include "DRsimInterface.h"
 #include "functions.h"
 
+// #include "GeoSvc.h"
+// #include "GridDRcalo.h"
+
 #include "TROOT.h"
 #include "TStyle.h"
 #include "TH1.h"
@@ -15,11 +18,43 @@
 
 #include <iostream>
 #include <string>
+#include <vector>
+#include <utility>
+#include <map>
+#include <tuple>
+#include <fstream>
 
-int main(int argc, char* argv[]) {
+int main(int , char* argv[]) {
   TString filename = argv[1];
   float low = std::stof(argv[2]);
   float high = std::stof(argv[3]);
+
+  // new GeoSvc({"./bin/compact/DRcalo.xml"});
+
+  // auto m_geoSvc = GeoSvc::GetInstance();
+  // std::string m_readoutName = "DRcaloSiPMreadout";
+
+  // auto lcdd = m_geoSvc->lcdd();
+  // auto allReadouts = lcdd->readouts();
+  // if (allReadouts.find(m_readoutName) == allReadouts.end()) {
+  //   throw std::runtime_error("Readout " + m_readoutName + " not found! Please check tool configuration.");
+  // } else {
+  //   std::cout << "Reading EDM from the collection " << m_readoutName << std::endl;
+  // }
+
+  // auto segmentation = dynamic_cast<dd4hep::DDSegmentation::GridDRcalo*>(m_geoSvc->lcdd()->readout(m_readoutName).segmentation().segmentation());
+
+  std::ifstream in;
+  int i_tmp;
+  double ceren, scint;
+  std::vector<std::pair<double,double>> fCalibs;
+  in.open("calib.csv",std::ios::in);
+  while (true) {
+    in >> i_tmp >> ceren >> scint;
+    if (!in.good()) break;
+    fCalibs.push_back(std::make_pair(ceren, scint));
+  }
+  in.close();
 
   gStyle->SetOptFit(1);
 
@@ -29,8 +64,11 @@ int main(int argc, char* argv[]) {
   tE_C->Sumw2(); tE_C->SetLineColor(kBlue); tE_C->SetLineWidth(2);
   TH1F* tE_S = new TH1F("E_S","Energy of Scintillation ch.;GeV;Evt",100,low,high);
   tE_S->Sumw2(); tE_S->SetLineColor(kRed); tE_S->SetLineWidth(2);
-  TH1F* tE_SC = new TH1F("E_SC","E_{S}+E_{C};GeV;Evt",100,2.*low,2.*high);
+  
+  TH1F* tE_SC = new TH1F("E_SC","E_{S}+E_{C};GeV;Evt",100,2.*low,2.*high); //em particle
+  // TH1F* tE_SC = new TH1F("E_SC","(sE - chi*cE)/(1 - chi);GeV;Evt",100,low,high); // hardrons
   tE_SC->Sumw2(); tE_SC->SetLineColor(kBlack); tE_SC->SetLineWidth(2);
+  
   TH1F* tE_DR = new TH1F("E_DR","Dual-readout corrected Energy;GeV;Evt",100,low,high);
   tE_DR->Sumw2(); tE_DR->SetLineColor(kBlack); tE_DR->SetLineWidth(2);
   TH1F* tP_leak = new TH1F("Pleak","Momentum leak;MeV;Evt",100,0.,1000.*high);
@@ -56,8 +94,6 @@ int main(int argc, char* argv[]) {
   TH1F* tNhit_C = new TH1F("nHits_C","Number of Cerenkov p.e./SiPM;p.e.;n",50,0.,50.);
   tNhit_C->Sumw2(); tNhit_C->SetLineColor(kBlue); tNhit_C->SetLineWidth(2);
 
-  RootInterface<RecoInterface::RecoEventData>* recoInterface = new RootInterface<RecoInterface::RecoEventData>(std::string(filename)+".root");
-  recoInterface->set("Reco","RecoEventData");
 
   RootInterface<DRsimInterface::DRsimEventData>* drInterface = new RootInterface<DRsimInterface::DRsimEventData>(std::string(filename)+".root");
   drInterface->set("DRsim","DRsimEventData");
@@ -66,12 +102,13 @@ int main(int argc, char* argv[]) {
   std::vector<float> E_Ss,E_Cs;
   std::vector<float> E_Ss_noLeak,E_Cs_noLeak;
 
-  unsigned int entries = recoInterface->entries();
-  while (recoInterface->numEvt() < entries) {
-    if (recoInterface->numEvt() % 100 == 0) printf("Analyzing %dth event ...\n", recoInterface->numEvt());
+  unsigned int entries = drInterface->entries();
 
-    RecoInterface::RecoEventData evt;
-    recoInterface->read(evt);
+  int find1 = 0;
+  int find2 = 0;
+
+  while (drInterface->numEvt() < entries) {
+    if (drInterface->numEvt() % 100 == 0) printf("Analyzing %dth event ...\n", drInterface->numEvt());
 
     DRsimInterface::DRsimEventData drEvt;
     drInterface->read(drEvt);
@@ -97,22 +134,63 @@ int main(int argc, char* argv[]) {
     tP_leak->Fill(Pleak);
     tP_leak_nu->Fill(Eleak_nu);
 
-    TH1F* tT_max = new TH1F("tmax","",600,10.,70.);
-
+    double sE_tmp = 0; double cE_tmp = 0;
     for (auto tower = drEvt.towers.begin(); tower != drEvt.towers.end(); ++tower) {
+
+      int fEta = 0;
+
+      // iTheta > towerTheta-------------------------
+      if (tower->towerTheta.first  >= 0 ){ //대칭이라서 0부터 대호 됨.
+        fEta = tower->towerTheta.first;
+      } else {
+        fEta = std::abs(tower->towerTheta.first+1); // 대칭이라서 음수를 양수로 해도 같음.
+      }
+      // iTheta > towerTheta-------------------------
+
+      // if(fEta >= 52) continue; If use this condition, the particles entered 52~91 will be discarded.
+
+      int chit_tmp = 0; int shit_tmp = 0;
+
+
       for (auto sipm = tower->SiPMs.begin(); sipm != tower->SiPMs.end(); ++sipm) {
+
+        int flag = 0;
+
+        // std::cout << chit_tmp << std::endl;
         if ( RecoInterface::IsCerenkov(sipm->x,sipm->y) ) {
+        // if ( RecoInterface::IsCerenkov(sipm->SiPMnum) ) {
+        // if ( segmentation->IsCerenkov(sipm->SiPMnum) ) {
           tNhit_C->Fill(sipm->count);
+          // chit_tmp += sipm->count;
+
 
           for (const auto timepair : sipm->timeStruct) {
-            tT_C->Fill(timepair.first.first+0.05,timepair.second);
-            tT_max->Fill(timepair.first.first+0.05,timepair.second);
+
+            tT_C->Fill(timepair.first.first+0.05,timepair.second); // first.first와 그거의 0.1나노세컨드의 중간값을 scond개 만큼 넣는거임.
+            // 그럼 타임 그래프는 그냥 잘 그려짐.
+
+            // timepair.first > (30, 30.1) 이런식으로 시간간격이 저장되어있음
+            // timepair.second > 2 이런식으로 위의 시간간격에 파티클이 몇개 있는지를 보여주는 거임
+            if(timepair.first.first<36.15){ //to cut x-talk effect, I added this and the bellow line.
+              chit_tmp += timepair.second;
+              // hit 그래프는 타임 그래프에서 낮은 거 찾아서 넣어야함. first시간 간격안에 하나의 파이클만 있지는 않을 수 있으므로 세컨드 개 만큼 있는거를 더해야함
+            }
+
+              
           }
           for (const auto wavpair : sipm->wavlenSpectrum) {
             tWav_C->Fill(wavpair.first.first,wavpair.second);
           }
+          // if (flag){
+            
+          //   chit_tmp += sipm->count;
+
+          // }
+
         } else {
           tNhit_S->Fill(sipm->count);
+          shit_tmp += sipm->count;
+          
 
           for (const auto timepair : sipm->timeStruct) {
             tT_S->Fill(timepair.first.first+0.05,timepair.second);
@@ -122,41 +200,41 @@ int main(int argc, char* argv[]) {
           }
         }
       }
+
+      cE_tmp += ((float) chit_tmp)/fCalibs.at(fEta).first;
+      sE_tmp += ((float) shit_tmp)/fCalibs.at(fEta).second;
+      
+      // there are only 52 lines in calib.csv------------------------
+      /*
+      if(fEta<52){
+        cE_tmp+=chit_tmp/fCalibs.at(fEta).first;
+        sE_tmp+=shit_tmp/fCalibs.at(fEta).second;
+      }
+      else{
+        break;
+      }
+      */
+      // there are only 52 lines in calib.csv------------------------
+
     }
 
-    float T_max = tT_max->GetBinCenter( tT_max->GetMaximumBin() );
-    float depth = ( T_max - 1.8/0.3 - 2.0/0.1895 ) / ( 1./0.3 - 1./0.1895 ); // 1895
+    E_Ss.push_back(sE_tmp);
+    E_Cs.push_back(cE_tmp);
 
-    delete tT_max;
+    tE_C->Fill(cE_tmp);
+    tE_S->Fill(sE_tmp);
 
-    float E_Scorr = evt.E_S*std::exp( -(depth-0.1368)/12.78 );
+    tE_SC->Fill(cE_tmp+sE_tmp);// em particle
+    // tE_SC->Fill(functions::E_DR291(cE_tmp, sE_tmp)); // hardron
+    
 
-    E_Ss.push_back(E_Scorr);
-    E_Cs.push_back(evt.E_C);
-
-    if (Pleak > 3000.) {
-      nLeak++;
-      continue;
-    }
-
-    tEdep_noLeak->Fill(Edep);
-
-    E_Ss_noLeak.push_back(E_Scorr);
-    E_Cs_noLeak.push_back(evt.E_C);
-
-    tE_C->Fill(evt.E_C);
-    tE_S->Fill(evt.E_S);
-    tE_SC->Fill(evt.E_C+E_Scorr);
-    // tE_SC->Fill(evt.E_C+evt.E_S);
-    // tE_DR->Fill(evt.E_DR);
-    tE_DR->Fill(functions::E_DR291(evt.E_C,E_Scorr));
-    tDepth->Fill(depth);
   } // event loop
+
+  drInterface->close();
 
   TCanvas* c = new TCanvas("c","");
 
   tEdep->Draw("Hist"); c->SaveAs(filename+"_Edep.png");
-  tEdep_noLeak->Draw("Hist"); c->SaveAs(filename+"_Edep_noLeak.png");
 
   c->cd();
   tE_S->SetTitle("");
@@ -194,15 +272,12 @@ int main(int argc, char* argv[]) {
 
   c->SaveAs(filename+"_Ecs.png");
 
-  TF1* grE_SC = new TF1("S+Cfit","gaus",2.*low,2.*high); grE_SC->SetLineColor(kBlack);
-  TF1* grE_DR = new TF1("Efit","gaus",low,high); grE_DR->SetLineColor(kBlack);
+  TF1* grE_SC = new TF1("S+Cfit","gaus",2.*low,2.*high); grE_SC->SetLineColor(kBlack); //em particle
+  // TF1* grE_SC = new TF1("S+Cfit","gaus",low,high); grE_SC->SetLineColor(kBlack); // hardron
+  
+  
   tE_SC->SetOption("p"); tE_SC->Fit(grE_SC,"R+&same");
-  tE_DR->SetOption("p"); tE_DR->Fit(grE_DR,"R+&same");
-
   tE_SC->Draw(""); c->SaveAs(filename+"_Esum.png");
-  tE_DR->Draw(""); c->SaveAs(filename+"_Ecorr.png");
-
-  tDepth->Draw("Hist"); c->SaveAs(filename+"_depth.png");
 
   c->SetLogy(1);
   tP_leak->Draw("Hist"); c->SaveAs(filename+"_Pleak.png");
@@ -219,20 +294,13 @@ int main(int argc, char* argv[]) {
   grSvsC->Draw("ap");
   c->SaveAs(filename+"_SvsC.png");
 
-  TGraph* grSvsC_noLeak = new TGraph(entries-nLeak,&(E_Ss_noLeak[0]),&(E_Cs_noLeak[0]));
-  grSvsC_noLeak->SetTitle("SvsC_noLeak;E_S;E_C");
-  grSvsC_noLeak->SetMarkerSize(0.5); grSvsC_noLeak->SetMarkerStyle(20);
-  grSvsC_noLeak->GetXaxis()->SetLimits(0.,high);
-  grSvsC_noLeak->GetYaxis()->SetRangeUser(0.,high);
-  grSvsC_noLeak->SetMaximum(high);
-  grSvsC_noLeak->SetMinimum(0.);
-  grSvsC_noLeak->Draw("ap");
-  c->SaveAs(filename+"_SvsC_noLeak.png");
-
   tT_C->Draw("Hist"); c->SaveAs(filename+"_tC.png");
   tT_S->Draw("Hist"); c->SaveAs(filename+"_tS.png");
   tWav_C->Draw("Hist"); c->SaveAs(filename+"_wavC.png");
   tWav_S->Draw("Hist"); c->SaveAs(filename+"_wavS.png");
   tNhit_C->Draw("Hist"); c->SaveAs(filename+"_nhitC.png");
   tNhit_S->Draw("Hist"); c->SaveAs(filename+"_nhitS.png");
+  std::cout << "done" << std::endl;
+  // std::cout << "35 : "<< find35 << std::endl;
+
 }

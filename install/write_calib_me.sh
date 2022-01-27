@@ -1,15 +1,18 @@
-# chit=1018
-# shit=17510
-# edep=17370
-# ccalib=chit/edepp
-# scalib=shit/edep
+ccalib=`python -c "print( (1018.0 / 17.3700))"`
+scalib=`python -c 'print((17510.0 / 17.3700))'`
 
-# ccalib=$((1018.0 / 17370.0))
-ccalib=`python -c "print(1018.0 / 17370.0)"`
-scalib=`python -c "print(17510.0 / 17370.0)"`
-# scalib=$((17510.0 / 17370.0))
-echo "0 $ccalib $scalib" > calib_new.csv
-for ((i=1;i<=51;i++))
+# after run analysis. apply the below codes. You must change the scale factors.
+ccalib=`python -c "print($ccalib * 19.14 / 20)"`
+scalib=`python -c "print($scalib * 19.78 / 20)"`
+
+ccalib=${ccalib:0:7}
+scalib=${scalib:0:7}
+
+echo "1 $ccalib $scalib" > calib_new.csv
+
+
+
+for ((i=2;i<=92;i++))
     
     do
         echo "$i $ccalib $scalib" >> calib_new.csv

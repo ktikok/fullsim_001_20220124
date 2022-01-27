@@ -40,15 +40,16 @@ cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/; make -j1
 # and then change calib value again like this. calib_value*mean/simualtion_energy.
 # Check again by run analysis.
 
+
+# If you want change calib.csv file, you must change a calibe
+# the calib.cc file is changed 
+
+
 # for analysis: for 20 GeV
 ./bin/analysis <rootfile name> 10 30
 
 # electron같이 em particle은 S + C
 # pion 과 같은 하드론은 (sE - chi * cE ) / ( 1 - chi ) 그래프
-
-
-# If you want change calib.csv file, you must change a calibe
-# the calib.cc file is changed 
 
 # for full simualtion, look up the 0run_all.sh file
 

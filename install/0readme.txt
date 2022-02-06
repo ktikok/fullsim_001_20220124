@@ -16,6 +16,11 @@ make install
 # export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HEPMC_DIR/lib64:$FASTJET_DIR/lib:$PYTHIA_DIR/lib:$PWD/lib
 cp setenv-cc7-gcc8.sh install/
 
+# to change materials, change below files and find "copper"
+/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimDetectorConstruction.cc
+/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimMaterials.cc
+/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/include/DRsimMaterials.hh
+
 
 # do : -------------------------------------------------------------------------------------
 cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/install ;source setenv-cc7-gcc8.sh 
@@ -43,6 +48,7 @@ cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/; make -j1
 
 # If you want change calib.csv file, you must change a calibe
 # the calib.cc file is changed 
+/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/Reco/calib.csv
 
 
 # for analysis: for 20 GeV
@@ -101,7 +107,18 @@ visualize : red, x, green, y, blue, z
 /run/beamOn 1
 -------------------------------------endcap----------------------------------------- 52
 
-
+-------------------------------------endcap----------------------------------------- 0
+0>> x : 2496.81, y : 0, z : 3593.58 center_distance : 4375.83
+/DRsim/generator/randx 0
+/DRsim/generator/randy 0
+/DRsim/generator/theta -0.03728991884
+/DRsim/generator/phi 0.017453293
+/DRsim/generator/y0 -3.1132348
+/DRsim/generator/z0 -4.716005797
+/gun/particle e-
+/gun/energy 1 eV
+/run/beamOn 1
+-------------------------------------endcap----------------------------------------- 0
 
 
 

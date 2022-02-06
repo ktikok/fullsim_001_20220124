@@ -27,9 +27,9 @@ private:
   // G4Material* fCu;
   // change materials
   // G4Material* fCu;
-  G4Material* fPb;
+  // G4Material* fPb;
+  G4Material* fW;
   // G4Material* fFe;
-  // G4Material* fW;
     
 
 

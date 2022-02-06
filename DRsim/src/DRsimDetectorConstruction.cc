@@ -193,8 +193,8 @@ void DRsimDetectorConstruction::Barrel(G4LogicalVolume* towerLogical[], G4Logica
     tower = new G4Trap("TowerB",pt);
     // towerLogical[i] = new G4LogicalVolume(tower,FindMaterial("Copper"),towerName);
     // towerLogical[i] = new G4LogicalVolume(tower,FindMaterial("Copper"),towerName);
-    towerLogical[i] = new G4LogicalVolume(tower,FindMaterial("Lead"),towerName);
-    // towerLogical[i] = new G4LogicalVolume(tower,FindMaterial("Tungsten"),towerName);
+    // towerLogical[i] = new G4LogicalVolume(tower,FindMaterial("Lead"),towerName);
+    towerLogical[i] = new G4LogicalVolume(tower,FindMaterial("Tungsten"),towerName);
     // towerLogical[i] = new G4LogicalVolume(tower,FindMaterial("Iron"),towerName);
 
 
@@ -266,8 +266,8 @@ void DRsimDetectorConstruction::Endcap(G4LogicalVolume* towerLogical[], G4Logica
     tower = new G4Trap("TowerE",pt);
     // towerLogical[i] = new G4LogicalVolume(tower,FindMaterial("Copper"),towerName);
     // towerLogical[i] = new G4LogicalVolume(tower,FindMaterial("Copper"),towerName);
-    towerLogical[i] = new G4LogicalVolume(tower,FindMaterial("Lead"),towerName);
-    // towerLogical[i] = new G4LogicalVolume(tower,FindMaterial("Tungsten"),towerName);
+    // towerLogical[i] = new G4LogicalVolume(tower,FindMaterial("Lead"),towerName);
+    towerLogical[i] = new G4LogicalVolume(tower,FindMaterial("Tungsten"),towerName);
     // towerLogical[i] = new G4LogicalVolume(tower,FindMaterial("Iron"),towerName);
 
 

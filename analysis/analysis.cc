@@ -203,6 +203,7 @@ int main(int , char* argv[]) {
 
       cE_tmp += ((float) chit_tmp)/fCalibs.at(fEta).first;
       sE_tmp += ((float) shit_tmp)/fCalibs.at(fEta).second;
+      // number/envergy >light yield. 
       
       // there are only 52 lines in calib.csv------------------------
       /*

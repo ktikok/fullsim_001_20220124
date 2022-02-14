@@ -1,4 +1,4 @@
-# nohup ./0_MyScript.sh > 0_nohup.out & tail -f 0_nohup.out
+# nohup ./1run_analysis > 1nohup_an.out & tail -f 1nohup_an.out
 
 #flag=`condor_q -all | grep "tikim ID"`
 #
@@ -33,7 +33,8 @@
 for i in "e-"
 # particle names(e-, pi+)
 do
-    for j in 20 5 10 30 50 70
+    # for j in 20
+    for j in 20
     # for j in 10 20 30 50 70 90 110
     do
         if [ $j -eq 5 ]
@@ -85,11 +86,16 @@ do
         fi
         # x1=$((${j} - 20))
         # x2=$((${j} + 20))
-        root_name="e_${j}GeV_51th"
+        # root_name="e_${j}GeV_0th"
         # /fcc/tikim/HEP-FCC_dual-readout_001/dual-readout/install/e_5GeV_51th
-        mkdir /fcc/tikim/HEP-FCC_dual-readout_001/dual-readout/install/e_${j}GeV_51th/old
-        cp /fcc/tikim/HEP-FCC_dual-readout_001/dual-readout/install/e_${j}GeV_51th/*.png /fcc/tikim/HEP-FCC_dual-readout_001/dual-readout/install/e_${j}GeV_51th/old/
-        nohup ./bin/analysis /fcc/tikim/HEP-FCC_dual-readout_001/dual-readout/install/e_${j}GeV_51th/$root_name $((${x1})) $((${x2})) > /fcc/tikim/HEP-FCC_dual-readout_001/dual-readout/install/e_${j}GeV_51th/${root_name}_nohup.out &
+        root_name="${i:0:-1}_${j}GeV_0th"
+        results="/fcc/tikim/results/ele/tungsten/$root_name"
+                #/fcc/tikim/results/ele/lead/e_20GeV_0th/root/e_20GeV_0th_0.root
+                #/fcc/tikim/results/ele/lead/e_20GeV_0th/root/e_20GeV_0th*.root
+                                    #^^^^^^^^^^
+        hadd "$results/$root_name.root" $results/root/*.root
+        
+        nohup ./bin/analysis $results/$root_name $((${x1})) $((${x2})) > $results/${root_name}_nohup.out &
         # /data4/tikim/dual-readout/install/0_pion/3000Events/20GeV_pi
         # cat "/data4/tikim/dual-readout/install/0_pion/3000Events/${j}GeV_pi/${root_name}_nohup.out" | grep 'Sigma\|Mean\|StdDev' > "/data4/tikim/dual-readout/install/0_pion/3000Events/${j}GeV_pi/${j}GeV_pi_CSS_MS_Error.txt"
         # cat "/fcc/tikim/HEP-FCC_dual-readout_001/dual-readout/install/ele/e_5GeV_51th/sum_use_this/e_5GeV_51th_nohup.out" | grep 'Sigma\|Mean\|StdDev' > "/fcc/tikim/HEP-FCC_dual-readout_001/dual-readout/install/ele/5GeV/5GeV_CSS_MS_Error.txt"

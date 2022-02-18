@@ -34,7 +34,8 @@ for i in "e-"
 # particle names(e-, pi+)
 do
     # for j in 20
-    for j in 20
+    # for j in 20
+    for j in 5 10 30 50 70
     # for j in 10 20 30 50 70 90 110
     do
         if [ $j -eq 5 ]

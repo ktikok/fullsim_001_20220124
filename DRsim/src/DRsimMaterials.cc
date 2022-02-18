@@ -63,8 +63,8 @@ void DRsimMaterials::CreateMaterials() {
   // look here too "https://pdg.lbl.gov/2021/AtomicNuclearProperties/"
   // fCu = new G4Material("Copper", z=29., a=63.546*g/mole, density=8.96*g/cm3);
   // fPb = new G4Material("Lead", z=82., a=207.2*g/mole, density=11.35*g/cm3);
-  // fW = new G4Material("Tungsten", z=74., a=183.84*g/mole, density=19.3*g/cm3);
-  fFe = new G4Material("Iron", z=26., a=55.845*g/mole, density=7.874*g/cm3);
+  fW = new G4Material("Tungsten", z=74., a=183.84*g/mole, density=19.3*g/cm3);
+  // fFe = new G4Material("Iron", z=26., a=55.845*g/mole, density=7.874*g/cm3);
   
 
   fSi = new G4Material("Silicon", z=14., a=28.09*g/mole, density=2.33*g/cm3);

@@ -29,13 +29,14 @@ cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/install ;source 
 # to apply change
 cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/; make -j12 install; cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/install
 
-
 # for visualization : 
 ./bin/DRsim
 
 # before run simulation, you must adjust beam positon. 
 # to set the points, you can use kyuyeong_example.
 # and use findpoints.C
+
+# to change angle, change /DRsim/src/DRsimPrimaryGeneratorAction.cc 
 
 # for calib: 
 ./bin/calib <rootfile name> 51

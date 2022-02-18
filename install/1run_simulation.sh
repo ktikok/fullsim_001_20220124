@@ -37,7 +37,7 @@ do
         root_name="${i:0:-1}_${j}GeV_0th"
 
         ########################################################
-        results="/fcc/tikim/results/ele/iron/$root_name/"
+        results="/fcc/tikim/results/ele/tungsten_theta3/$root_name/"
         ################################^^^^^^^^################
 
         echo "starting submit for $gun_energy $gun_particle and the output will be $root_name.root"    
@@ -60,10 +60,10 @@ do
         echo "/run/verbose 1" >> 1run.mac
         echo "/DRsim/generator/randx 10" >> 1run.mac
         echo "/DRsim/generator/randy 10" >> 1run.mac
-        echo "/DRsim/generator/theta -0.03728991884" >> 1run.mac
+        echo "/DRsim/generator/theta -0.06346985762" >> 1run.mac
         echo "/DRsim/generator/phi 0.01745329252" >> 1run.mac
         echo "/DRsim/generator/y0 -3.142302266" >> 1run.mac
-        echo "/DRsim/generator/z0 -4.716005797" >> 1run.mac
+        echo "/DRsim/generator/z0 -9.441234961" >> 1run.mac
         echo "/gun/particle $i" >> 1run.mac
         echo "/gun/energy $j GeV" >> 1run.mac
         echo "/run/beamOn $run_beamOn" >> 1run.mac

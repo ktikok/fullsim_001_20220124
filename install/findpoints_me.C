@@ -39,7 +39,7 @@ void findpoints_me(){
     // double cz = 3593.58;
     // double cd = 4375.83;
 
-    // 51 th
+    // // 51 th
     // double cx = 2542.6;
     // double cy = 0 ;
     // double cz = 3561.32 ;
@@ -52,7 +52,8 @@ void findpoints_me(){
 
 
     double ophi = cphi+1*pi/180;
-    double otheta = ctheta+1.5*pi/180;
+    // double otheta = ctheta+1.5*pi/180;
+    double otheta = ctheta+3.0*pi/180;
 
     double oy = -(tan(ophi)*cx-cy)*(cd-1250)/cd;
     double oz = -(tan(otheta)*cx-cz)*(cd-1250)/cd;

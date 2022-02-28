@@ -1,9 +1,9 @@
 universe = vanilla
 executable = 1run.sh
 arguments = $(ProcId)
-output = /fcc/tikim/results/ele/tungsten_theta3/e_20GeV_0th//log/$(ProcId).out
-error = /fcc/tikim/results/ele/tungsten_theta3/e_20GeV_0th//log/$(ProcId).err
-log = /fcc/tikim/results/ele/tungsten_theta3/e_20GeV_0th//log/$(ProcId).log
+output = /fcc/tikim/results/ele/iron_theta3/e_20GeV_0th//log/$(ProcId).out
+error = /fcc/tikim/results/ele/iron_theta3/e_20GeV_0th//log/$(ProcId).err
+log = /fcc/tikim/results/ele/iron_theta3/e_20GeV_0th//log/$(ProcId).log
 request_memory = 3 GB
 should_transfer_files = YES
 when_to_transfer_output = ON_EXIT

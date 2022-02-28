@@ -108,8 +108,8 @@ visualize : red, x, green, y, blue, z
 /run/beamOn 1
 -------------------------------------endcap----------------------------------------- 52
 
--------------------------------------endcap----------------------------------------- 0
-0>> x : 2496.81, y : 0, z : 3593.58 center_distance : 4375.83
+-------------------------------------0---------------------------------------- 0
+0 >> x : 3050.15 y : 0 z : 33.8885 center_distance : 3050.33
 /DRsim/generator/randx 0
 /DRsim/generator/randy 0
 /DRsim/generator/theta -0.03728991884
@@ -119,8 +119,36 @@ visualize : red, x, green, y, blue, z
 /gun/particle e-
 /gun/energy 1 eV
 /run/beamOn 1
--------------------------------------endcap----------------------------------------- 0
+-------------------------------------0---------------------------------------- 0
 
+-------------------------------------0-3---------------------------------------- 0
+0 >> x : 3050.15 y : 0 z : 33.8885 center_distance : 3050.33
+/DRsim/generator/randx 0
+/DRsim/generator/randy 0
+/DRsim/generator/theta -0.06346985762
+/DRsim/generator/phi 0.017453293
+/DRsim/generator/y0 -3.142302266
+/DRsim/generator/z0 -9.441234961
+/gun/particle e-
+/gun/energy 1 eV
+/run/beamOn 1
+/vis/viewer/set/viewpointVector 3050.15 0 33.8885
+-------------------------------------0-3---------------------------------------- 0
+
+-------------------------------------51-3----------------------------------------- 
+51>> x : 2542.6 y : 0 z : 3561.32 center_distance : 4375.83
+/DRsim/generator/randx 0
+/DRsim/generator/randy 0
+/DRsim/generator/theta -1.003129872
+/DRsim/generator/phi 0.017453293
+/DRsim/generator/y0 -3.170329668
+/DRsim/generator/z0 -30.42650995
+/gun/particle e-
+/gun/energy 1 eV
+/run/beamOn 1
+/vis/viewer/set/viewpointVector -2542.6 0 -3561.32
+
+-------------------------------------51-3----------------------------------------- 
 
 
 

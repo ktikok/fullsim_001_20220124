@@ -37,7 +37,7 @@ do
         root_name="${i:0:-1}_${j}GeV_0th"
 
         ########################################################
-        results="/fcc/tikim/results/ele/tungsten_theta3/$root_name/"
+        results="/fcc/tikim/results/ele/iron_theta3/$root_name/"
         ################################^^^^^^^^################
 
         echo "starting submit for $gun_energy $gun_particle and the output will be $root_name.root"    

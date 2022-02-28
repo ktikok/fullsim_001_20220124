@@ -1,21 +1,26 @@
-ccalib=`python -c "print( (661.1 / 18.5600))"` # hit/edep energy for GeV unit
-scalib=`python -c 'print((11150.0 / 18.5600))'` 
+ccalib=`python -c "print( (1395.0 / 16.5200))"` # hit/edep energy for GeV unit
+scalib=`python -c 'print((20750.0 / 16.5200))'` 
 
 # after run analysis. apply the below codes. You must change the scale factors. use fit mean value
-# ccalib=`python -c "print($ccalib * 19.39 / 20)"`
-# scalib=`python -c "print($scalib * 19.64 / 20)"`
+cccalib=`python -c "print($ccalib * 19.21 / 20)"`
+sscalib=`python -c "print($scalib * 19.77 / 20)"`
 
 ccalib=${ccalib:0:7}
 scalib=${scalib:0:7}
 
-echo "1 $ccalib $scalib" > calib_new1.csv
-# echo "1 $ccalib $scalib" > calib_new2.csv
+# echo "1 $ccalib $scalib" > equal_cons.csv
+# echo "1 $ccalib $scalib" > calib.csv
+
+# echo "1 $cccalib $sscalib" > calib_new2.csv
+echo "1 $cccalib $sscalib" > calib.csv
 
 
 
 for ((i=2;i<=92;i++))
     
     do
-        echo "$i $ccalib $scalib" >> calib_new1.csv
-        # echo "$i $ccalib $scalib" >> calib_new2.csv
+        # echo "1 $ccalib $scalib" >> calib.csv
+        # echo "$i $ccalib $scalib" >> equal_cons.csv
+        # echo "$i $cccalib $sscalib" >> calib_new2.csv
+        echo "$i $cccalib $sscalib" >> calib.csv
     done

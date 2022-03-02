@@ -35,7 +35,7 @@ for i in "e-"
 do
     # for j in 20
     # for j in 20
-    for j in 5 10 30 50 70
+    for j in 30
     # for j in 10 20 30 50 70 90 110
     do
         if [ $j -eq 5 ]
@@ -52,8 +52,8 @@ do
 
         if [ $j -eq 20 ]
         then
-            x1=15
-            x2=25
+            x1=10
+            x2=30
         fi
 
         if [ $j -eq 30 ]
@@ -64,33 +64,33 @@ do
 
         if [ $j -eq 50 ]
         then
-            x1=40
-            x2=60
+            x1=30
+            x2=70
         fi
 
         if [ $j -eq 70 ]
         then
-            x1=60
-            x2=80
+            x1=50
+            x2=90
         fi
 
         if [ $j -eq 90 ]
         then
-            x1=80
-            x2=100
+            x1=70
+            x2=110
         fi
 
         if [ $j -eq 110 ]
         then
-            x1=100
-            x2=120
+            x1=90
+            x2=130
         fi
         # x1=$((${j} - 20))
         # x2=$((${j} + 20))
         # root_name="e_${j}GeV_0th"
         # /fcc/tikim/HEP-FCC_dual-readout_001/dual-readout/install/e_5GeV_51th
         root_name="${i:0:-1}_${j}GeV_0th"
-        results="/fcc/tikim/results/ele/tungsten/$root_name"
+        results="/fcc/tikim/results/ele/tungsten_theta3/$root_name"
                 #/fcc/tikim/results/ele/lead/e_20GeV_0th/root/e_20GeV_0th_0.root
                 #/fcc/tikim/results/ele/lead/e_20GeV_0th/root/e_20GeV_0th*.root
                                     #^^^^^^^^^^

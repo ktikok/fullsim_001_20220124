@@ -1,9 +1,9 @@
-ccalib=`python -c "print( (1329.0 / 15.7700))"` # hit/edep energy for GeV unit
-scalib=`python -c 'print((19780.0 / 15.7700))'` 
+ccalib=`python -c "print( (1395.0 / 16.5200))"` # hit/edep energy for GeV unit
+scalib=`python -c 'print((20750.0 / 16.5200))'` 
 
 # after run analysis. apply the below codes. You must change the scale factors. use fit mean value
-cccalib=`python -c "print($ccalib * 19.28 / 20)"`
-sscalib=`python -c "print($scalib * 19.80 / 20)"`
+cccalib=`python -c "print($ccalib * 19.21 / 20)"`
+sscalib=`python -c "print($scalib * 19.77 / 20)"`
 
 ccalib=${ccalib:0:7}
 scalib=${scalib:0:7}

@@ -13,7 +13,7 @@ do
 
 
 
-    for j in 20 5 10 30 50 70
+    for j in 30 50 70
     # for j in 5 10 20 30 50 70 90 110
     # energy with the unit of GeV. I did alread for 20GeV
     do
@@ -37,11 +37,10 @@ do
         root_name="${i:0:-1}_${j}GeV_0th"
 
         ########################################################
-        results="/fcc/tikim/results/ele/iron_theta3/$root_name/"
+        results="/fcc/tikim/results/ele/iron/$root_name/"
         ################################^^^^^^^^################
 
         echo "starting submit for $gun_energy $gun_particle and the output will be $root_name.root"    
-        echo ""
         
         # ctrl+shift+L >> select same words    
 
@@ -60,10 +59,10 @@ do
         echo "/run/verbose 1" >> 1run.mac
         echo "/DRsim/generator/randx 10" >> 1run.mac
         echo "/DRsim/generator/randy 10" >> 1run.mac
-        echo "/DRsim/generator/theta -0.06346985762" >> 1run.mac
+        echo "/DRsim/generator/theta -0.03728991884" >> 1run.mac
         echo "/DRsim/generator/phi 0.01745329252" >> 1run.mac
         echo "/DRsim/generator/y0 -3.142302266" >> 1run.mac
-        echo "/DRsim/generator/z0 -9.441234961" >> 1run.mac
+        echo "/DRsim/generator/z0 -4.716005797" >> 1run.mac
         echo "/gun/particle $i" >> 1run.mac
         echo "/gun/energy $j GeV" >> 1run.mac
         echo "/run/beamOn $run_beamOn" >> 1run.mac
@@ -118,6 +117,7 @@ do
         # #echo $((${j} - 10))
         # #break
         echo "Simulation is done"
+        echo ""
         # echo "preparing analysis"
         # hadd "$results/$root_name.root" "$results/root/$root_name*.root"
         # #./bin/analysis "$root_name" $((${j} - 10)) $((${j} + 10))

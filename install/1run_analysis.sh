@@ -1,4 +1,4 @@
-# nohup ./1run_analysis > 1nohup_an.out & tail -f 1nohup_an.out
+# nohup ./1run_analysis.sh > 1nohup_an.out & tail -f 1nohup_an.out
 
 #flag=`condor_q -all | grep "tikim ID"`
 #
@@ -35,8 +35,11 @@ for i in "e-"
 do
     # for j in 20
     # for j in 20
-    for j in 20
-    # for j in 10 20 30 50 70 90 110
+    # for j in 20
+    # for j in 5 10 20 30 50 70 90 110
+    for j in 5 10 20 30 50 70
+    # for j in 10 30 50 70
+    # for j in 5
     do
         if [ $j -eq 5 ]
         then
@@ -46,20 +49,20 @@ do
 
         if [ $j -eq 10 ]
         then
-            x1=5
-            x2=15
+            x1=0
+            x2=20
         fi
 
         if [ $j -eq 20 ]
         then
-            x1=15
-            x2=25
+            x1=0
+            x2=40
         fi
 
         if [ $j -eq 30 ]
         then
-            x1=20
-            x2=40
+            x1=10
+            x2=50
         fi
 
         if [ $j -eq 50 ]
@@ -90,11 +93,14 @@ do
         # root_name="e_${j}GeV_0th"
         # /fcc/tikim/HEP-FCC_dual-readout_001/dual-readout/install/e_5GeV_51th
         root_name="${i:0:-1}_${j}GeV_0th"
-        results="/fcc/tikim/results/ele/iron_theta3/$root_name"
+        results="/fcc/tikim/results/ele/iron/$root_name"
                 #/fcc/tikim/results/ele/lead/e_20GeV_0th/root/e_20GeV_0th_0.root
                 #/fcc/tikim/results/ele/lead/e_20GeV_0th/root/e_20GeV_0th*.root
                                     #^^^^^^^^^^
+
+        ########################################################3
         hadd "$results/$root_name.root" $results/root/*.root
+        #######################################################3
         
         nohup ./bin/analysis $results/$root_name $((${x1})) $((${x2})) > $results/${root_name}_nohup.out &
         # /data4/tikim/dual-readout/install/0_pion/3000Events/20GeV_pi

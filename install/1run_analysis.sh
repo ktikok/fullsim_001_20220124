@@ -37,20 +37,20 @@ do
     # for j in 20
     # for j in 20
     # for j in 5 10 20 30 50 70 90 110
-    for j in 5 10 30 50 70
+    for j in 5 10 20 30 50 70
     # for j in 10 30 50 70
     # for j in 5
     do
         if [ $j -eq 5 ]
         then
-            x1=0
-            x2=10
+            x1=-5
+            x2=15
         fi
 
         if [ $j -eq 10 ]
         then
-            x1=0
-            x2=20
+            x1=-5
+            x2=25
         fi
 
         if [ $j -eq 20 ]
@@ -61,20 +61,20 @@ do
 
         if [ $j -eq 30 ]
         then
-            x1=10
-            x2=50
+            x1=5
+            x2=55
         fi
 
         if [ $j -eq 50 ]
         then
-            x1=30
-            x2=70
+            x1=15
+            x2=85
         fi
 
         if [ $j -eq 70 ]
         then
-            x1=50
-            x2=90
+            x1=25
+            x2=115
         fi
 
         if [ $j -eq 90 ]
@@ -92,17 +92,22 @@ do
         # x2=$((${j} + 20))
         # root_name="e_${j}GeV_0th"
         # /fcc/tikim/HEP-FCC_dual-readout_001/dual-readout/install/e_5GeV_51th
+        # /fcc/tikim/results/ele/lead/e_20GeV_0th
         root_name="${i:0:-1}_${j}GeV_0th"
-        results="/fcc/tikim/results/ele/iron/$root_name"
+        results="/fcc/tikim/results/ele/lead/$root_name"
                 #/fcc/tikim/results/ele/lead/e_20GeV_0th/root/e_20GeV_0th_0.root
                 #/fcc/tikim/results/ele/lead/e_20GeV_0th/root/e_20GeV_0th*.root
                                     #^^^^^^^^^^
 
         ########################################################3
-        hadd "$results/$root_name.root" $results/root/*.root
+        # hadd "$results/$root_name.root" $results/root/*.root
         #######################################################3
+        mkdir "/fcc/tikim/results/ele/lead/$root_name/ndf"
+        mv /fcc/tikim/results/ele/lead/$root_name/${root_name}_* "/fcc/tikim/results/ele/lead/$root_name/ndf"
         
+        # ./bin/analysis $results/$root_name $((${x1})) $((${x2}))
         nohup ./bin/analysis $results/$root_name $((${x1})) $((${x2})) > $results/${root_name}_nohup.out &
+
         # /data4/tikim/dual-readout/install/0_pion/3000Events/20GeV_pi
         # cat "/data4/tikim/dual-readout/install/0_pion/3000Events/${j}GeV_pi/${root_name}_nohup.out" | grep 'Sigma\|Mean\|StdDev' > "/data4/tikim/dual-readout/install/0_pion/3000Events/${j}GeV_pi/${j}GeV_pi_CSS_MS_Error.txt"
         # cat "/fcc/tikim/HEP-FCC_dual-readout_001/dual-readout/install/ele/e_5GeV_51th/sum_use_this/e_5GeV_51th_nohup.out" | grep 'Sigma\|Mean\|StdDev' > "/fcc/tikim/HEP-FCC_dual-readout_001/dual-readout/install/ele/5GeV/5GeV_CSS_MS_Error.txt"

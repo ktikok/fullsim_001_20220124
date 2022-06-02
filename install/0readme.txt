@@ -21,6 +21,11 @@ cp setenv-cc7-gcc8.sh install/
 /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimMaterials.cc
 /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/include/DRsimMaterials.hh
 
+# for brass
+    const double BrassDensity = 8.44*g/cm3;
+    auto CuZn37 = new G4Material(name="Brass", BrassDensity, 2);
+    CuZn37->AddElement(elCu, 0.7);
+    CuZn37->AddElement(elZn, 0.3);
 
 # do : -------------------------------------------------------------------------------------
 cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/install ;source setenv-cc7-gcc8.sh 
@@ -150,5 +155,6 @@ visualize : red, x, green, y, blue, z
 
 -------------------------------------51-3----------------------------------------- 
 
-
+useful commands---------------------
+scp -r -P 50002 ./results/ tikim@165.132.25.82:/data4/tikim/simulation_result/
 

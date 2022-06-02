@@ -195,7 +195,8 @@ void DRsimDetectorConstruction::Barrel(G4LogicalVolume* towerLogical[], G4Logica
     // towerLogical[i] = new G4LogicalVolume(tower,FindMaterial("Copper"),towerName);
     // towerLogical[i] = new G4LogicalVolume(tower,FindMaterial("Lead"),towerName);
     // towerLogical[i] = new G4LogicalVolume(tower,FindMaterial("Tungsten"),towerName);
-    towerLogical[i] = new G4LogicalVolume(tower,FindMaterial("Iron"),towerName);
+    // towerLogical[i] = new G4LogicalVolume(tower,FindMaterial("Iron"),towerName);
+    towerLogical[i] = new G4LogicalVolume(tower,FindMaterial("Brass"),towerName);
 
 
     dimB->Getpt_PMTG(pt);
@@ -268,7 +269,8 @@ void DRsimDetectorConstruction::Endcap(G4LogicalVolume* towerLogical[], G4Logica
     // towerLogical[i] = new G4LogicalVolume(tower,FindMaterial("Copper"),towerName);
     // towerLogical[i] = new G4LogicalVolume(tower,FindMaterial("Lead"),towerName);
     // towerLogical[i] = new G4LogicalVolume(tower,FindMaterial("Tungsten"),towerName);
-    towerLogical[i] = new G4LogicalVolume(tower,FindMaterial("Iron"),towerName);
+    // towerLogical[i] = new G4LogicalVolume(tower,FindMaterial("Iron"),towerName);
+    towerLogical[i] = new G4LogicalVolume(tower,FindMaterial("Brass"),towerName);
 
 
     dimE->Getpt_PMTG(pt);

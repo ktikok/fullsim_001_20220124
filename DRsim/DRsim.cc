@@ -45,6 +45,8 @@ int main(int argc, char** argv) {
 
   // Mandatory user initialization classes
   runManager->SetUserInitialization(new DRsimDetectorConstruction());
+  std::cout << " first\n " << std::endl;
+
 
   // physics module
   G4VModularPhysicsList* physicsList = new FTFP_BERT;

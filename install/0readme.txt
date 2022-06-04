@@ -65,7 +65,13 @@ cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/; make -j1
 
 # for full simualtion, look up the 0run_all.sh file
 
-
+# structure of presteppoint
+   const G4Step* step
+        G4StepPoint* presteppoint = GetPreStepPoint()
+            G4LogicalVolume* preVol = GetPhysicalVolume()->GetLogicalVolume();
+            GetMaterial()
+            GetName()
+            G4TouchableHandle theTouchable = GetTouchableHandle();
 
 
 

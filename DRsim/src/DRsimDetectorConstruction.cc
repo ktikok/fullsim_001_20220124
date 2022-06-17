@@ -108,7 +108,8 @@ G4VPhysicalVolume* DRsimDetectorConstruction::Construct() {
   G4LogicalVolumeStore::GetInstance()->Clean();
   G4SolidStore::GetInstance()->Clean();
 
-  checkOverlaps = false;
+  // checkOverlaps = false;
+  checkOverlaps = true;
 
   G4VSolid* worldSolid = new G4Box("worldBox",10.*m,10.*m,10.*m);
   worldLogical = new G4LogicalVolume(worldSolid,FindMaterial("G4_Galactic"),"worldLogical");
@@ -165,26 +166,26 @@ G4VPhysicalVolume* DRsimDetectorConstruction::Construct() {
 }
 
 void DRsimDetectorConstruction::ConstructSDandField() {
-  std::cout << " void DRsimDetectorConstruction::ConstructSDandField() { \n" << std::endl;
+  // std::cout << " void DRsimDetectorConstruction::ConstructSDandField() { \n" << std::endl;
 
-  G4SDManager* SDman = G4SDManager::GetSDMpointer();
-  std::cout << " void DRsimDetectorConstruction::ConstructSDandField() { \n" << std::endl;
+  // G4SDManager* SDman = G4SDManager::GetSDMpointer();
+  // std::cout << " void DRsimDetectorConstruction::ConstructSDandField() { \n" << std::endl;
 
-  G4String SiPMName = "SiPMSD";
-  std::cout << " void DRsimDetectorConstruction::ConstructSDandField() { \n" << std::endl;
+  // G4String SiPMName = "SiPMSD";
+  // std::cout << " void DRsimDetectorConstruction::ConstructSDandField() { \n" << std::endl;
 
-  // Not a memory leak - SDs are deleted by G4SDManager. Deleting them manually will cause double delete!
-  for (int i = 0; i < sNumBarrel; i++) {
-    std::cout << " void DRsimDetectorConstruction::ConstructSDandField() { \n" << std::endl;
+  // // Not a memory leak - SDs are deleted by G4SDManager. Deleting them manually will cause double delete!
+  // for (int i = 0; i < sNumBarrel; i++) {
+  //   std::cout << " void DRsimDetectorConstruction::ConstructSDandField() { \n" << std::endl;
 
-    DRsimSiPMSD* SiPMSDBR = new DRsimSiPMSD("BR"+std::to_string(i),"BRC"+std::to_string(i),fTowerBR.at(i));
+  //   DRsimSiPMSD* SiPMSDBR = new DRsimSiPMSD("BR"+std::to_string(i),"BRC"+std::to_string(i),fTowerBR.at(i));
 
-    std::cout << " void DRsimDetectorConstruction::ConstructSDandField() { \n" << std::endl;
-    SDman->AddNewDetector(SiPMSDBR);
-    std::cout << " void DRsimDetectorConstruction::ConstructSDandField() { \n" << std::endl;
-    PMTcathLogicalBR[i]->SetSensitiveDetector(SiPMSDBR);
-  }
-  std::cout << " void DRsimDetectorConstruction::ConstructSDandField() { \n" << std::endl;
+  //   std::cout << " void DRsimDetectorConstruction::ConstructSDandField() { \n" << std::endl;
+  //   SDman->AddNewDetector(SiPMSDBR);
+  //   std::cout << " void DRsimDetectorConstruction::ConstructSDandField() { \n" << std::endl;
+  //   PMTcathLogicalBR[i]->SetSensitiveDetector(SiPMSDBR);
+  // }
+  // std::cout << " void DRsimDetectorConstruction::ConstructSDandField() { \n" << std::endl;
 
   // for (int i = 0; i < sNumBarrel; i++) {
   //   DRsimSiPMSD* SiPMSDBL = new DRsimSiPMSD("BL"+std::to_string(i),"BLC"+std::to_string(i),fTowerBL.at(i));

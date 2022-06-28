@@ -11,15 +11,17 @@ ccmake ..
 make -j12
 make install
 
+change analysis.cc code. you can compare with the code which is in previous working directory.
+Especially, remove reco~~.
 
 # add this in setenv-cc7-gcc8.sh
 # export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HEPMC_DIR/lib64:$FASTJET_DIR/lib:$PYTHIA_DIR/lib:$PWD/lib
 cp setenv-cc7-gcc8.sh install/
 
 # to change materials, change below files and find "copper"
-/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimDetectorConstruction.cc
-/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimMaterials.cc
-/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/include/DRsimMaterials.hh
+/fcc/tikim/0simulation/dual-readout/DRsim/src/DRsimDetectorConstruction.cc
+/fcc/tikim/0simulation/dual-readout/DRsim/src/DRsimMaterials.cc
+/fcc/tikim/0simulation/dual-readout/DRsim/include/DRsimMaterials.hh
 
 # for brass
     const double BrassDensity = 8.44*g/cm3;
@@ -28,11 +30,11 @@ cp setenv-cc7-gcc8.sh install/
     CuZn37->AddElement(elZn, 0.3);
 
 # do : -------------------------------------------------------------------------------------
-cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/install ;source setenv-cc7-gcc8.sh 
+cd /fcc/tikim/0simulation/dual-readout/install ;source 0setenv-cc7-gcc8.sh 
 
 
 # to apply change
-cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/; make -j12 install; cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/install
+cd /fcc/tikim/0simulation/dual-readout/build/; make -j12 install; cd /fcc/tikim/0simulation/dual-readout/install
 
 # for visualization : 
 ./bin/DRsim
@@ -46,7 +48,7 @@ cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/; make -j1
 # for calib: 
 ./bin/calib <rootfile name> 51
 # after calib, compare specific tower number hit histogram energy and totalhit histogram energy 
-# to get calb constant, calculate shit/edep, chit/edep. 
+# to get calb constant, calculate shit/edep, chit/edep. *not total values.
 # After calculate the two values, apply the two value to all towers, and run analysis.
 # and then change calib value again like this. calib_value*mean/simualtion_energy.
 # Check again by run analysis.
@@ -54,7 +56,7 @@ cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/; make -j1
 
 # If you want change calib.csv file, you must change a calibe
 # the calib.cc file is changed 
-/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/Reco/calib.csv
+/fcc/tikim/0simulation/dual-readout/Reco/calib.csv
 
 
 # for analysis: for 20 GeV
@@ -65,7 +67,11 @@ cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/; make -j1
 
 # for full simualtion, look up the 0run_all.sh file
 
-
+# if you want to see materials, use the below codes in DRsimSiPMSD.cc
+std::cout << "1 " << step->GetTrack()->GetOriginTouchable()->GetVolume(0)->GetLogicalVolume()->GetMaterial()->GetName() << std::endl; 
+std::cout << "2 " << step->GetTrack()->GetOriginTouchable()->GetVolume(1)->GetLogicalVolume()->GetMaterial()->GetName() << std::endl; 
+std::cout << "3 " << step->GetTrack()->GetOriginTouchable()->GetVolume(2)->GetLogicalVolume()->GetMaterial()->GetName() << std::endl; 
+  // to see materials
 
 
 

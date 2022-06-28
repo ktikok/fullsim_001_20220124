@@ -23,15 +23,13 @@ private:
   G4Material* fFluoPoly;
   G4Material* fPMMA;
   G4Material* fPS;
-
-  G4Material* fCu;
-  // change materials
   // G4Material* fCu;
-  // G4Material* fPb;
-  // G4Material* fW;
-  // G4Material* fFe;
-  // G4Material* fCuZn37;
-    
+  // change materials
+  G4Material* fCu;
+  G4Material* fPb;
+  G4Material* fW;
+  G4Material* fFe;
+  G4Material* fCuZn37;
 
 
   G4Material* fSi;

@@ -13,7 +13,7 @@ do
 
 
 
-    for j in 30 50 70
+    for j in 20 5 10 30 50 70 90 110
     # for j in 5 10 20 30 50 70 90 110
     # energy with the unit of GeV. I did alread for 20GeV
     do
@@ -37,7 +37,7 @@ do
         root_name="${i:0:-1}_${j}GeV_0th"
 
         ########################################################
-        results="/fcc/tikim/results/ele/iron/$root_name/"
+        results="/fcc/tikim/results/ele/brass/$root_name/"
         ################################^^^^^^^^################
 
         echo "starting submit for $gun_energy $gun_particle and the output will be $root_name.root"    
@@ -46,6 +46,7 @@ do
 
 
         # ---------------------------
+        # for 1st tower
         # theta : -0.03728991884
         # phi : 0.01745329252
         # y(cm) : -3.142302266

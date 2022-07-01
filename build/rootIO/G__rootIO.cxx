@@ -38,10 +38,10 @@
 namespace std {} using namespace std;
 
 // Header files passed as explicit arguments
-#include "/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/rootIO/include/DRsimInterface.h"
-#include "/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/rootIO/include/RecoInterface.h"
-#include "/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/rootIO/include/RootInterface.h"
-#include "/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/rootIO/include/fastjetInterface.h"
+#include "/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/rootIO/include/DRsimInterface.h"
+#include "/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/rootIO/include/RecoInterface.h"
+#include "/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/rootIO/include/RootInterface.h"
+#include "/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/rootIO/include/fastjetInterface.h"
 #include "fastjetInterface.h"
 
 // Header files passed via #pragma extra_include
@@ -1469,19 +1469,19 @@ namespace ROOT {
 namespace {
   void TriggerDictionaryInitialization_librootIO_Impl() {
     static const char* headers[] = {
-"/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/rootIO/include/DRsimInterface.h",
-"/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/rootIO/include/RecoInterface.h",
-"/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/rootIO/include/RootInterface.h",
-"/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/rootIO/include/fastjetInterface.h",
+"/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/rootIO/include/DRsimInterface.h",
+"/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/rootIO/include/RecoInterface.h",
+"/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/rootIO/include/RootInterface.h",
+"/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/rootIO/include/fastjetInterface.h",
 0
     };
     static const char* includePaths[] = {
-"/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/rootIO/include",
+"/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/rootIO/include",
 "/cvmfs/sft.cern.ch/lcg/releases/LCG_96b/fastjet/3.3.2/x86_64-centos7-gcc8-opt/include",
 "/cvmfs/sft.cern.ch/lcg/releases/LCG_96b/ROOT/6.18.04/x86_64-centos7-gcc8-opt/include",
-"/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/rootIO",
+"/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/rootIO",
 "/cvmfs/sft.cern.ch/lcg/releases/ROOT/6.18.04-c767d/x86_64-centos7-gcc8-opt/include",
-"/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/rootIO/",
+"/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/rootIO/",
 0
     };
     static const char* fwdDeclCode = R"DICTFWDDCLS(
@@ -1499,10 +1499,10 @@ namespace std{template <typename ..._Elements> class __attribute__((annotate("$c
 
 #define _BACKWARD_BACKWARD_WARNING_H
 // Inline headers
-#include "/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/rootIO/include/DRsimInterface.h"
-#include "/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/rootIO/include/RecoInterface.h"
-#include "/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/rootIO/include/RootInterface.h"
-#include "/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/rootIO/include/fastjetInterface.h"
+#include "/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/rootIO/include/DRsimInterface.h"
+#include "/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/rootIO/include/RecoInterface.h"
+#include "/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/rootIO/include/RootInterface.h"
+#include "/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/rootIO/include/fastjetInterface.h"
 #include "fastjetInterface.h"
 #include <vector>
 

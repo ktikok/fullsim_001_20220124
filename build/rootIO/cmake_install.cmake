@@ -1,4 +1,4 @@
-# Install script for directory: /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/rootIO
+# Install script for directory: /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/rootIO
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librootIO.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/rootIO/librootIO.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/rootIO/librootIO.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librootIO.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librootIO.so")
     file(RPATH_CHANGE
@@ -62,8 +62,8 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE FILE FILES
-    "/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/rootIO/librootIO_rdict.pcm"
-    "/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/rootIO/librootIO.rootmap"
+    "/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/rootIO/librootIO_rdict.pcm"
+    "/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/rootIO/librootIO.rootmap"
     )
 endif()
 

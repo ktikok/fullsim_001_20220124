@@ -1,4 +1,4 @@
-# Install script for directory: /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout
+# Install script for directory: /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,11 +39,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/rootIO/cmake_install.cmake")
-  include("/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim/cmake_install.cmake")
-  include("/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/Gen/cmake_install.cmake")
-  include("/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/Reco/cmake_install.cmake")
-  include("/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/analysis/cmake_install.cmake")
+  include("/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/rootIO/cmake_install.cmake")
+  include("/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim/cmake_install.cmake")
+  include("/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/Gen/cmake_install.cmake")
+  include("/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/Reco/cmake_install.cmake")
+  include("/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/analysis/cmake_install.cmake")
 
 endif()
 
@@ -55,5 +55,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -29,9 +29,12 @@ int main(int argc, char** argv) {
   #endif
 
   G4int seed = 0;
-  G4String filename;
-  if (argc > 2) seed = atoi(argv[2]);
-  if (argc > 3) filename = argv[3];
+  G4String filename; //output file name
+
+  // ./bin/DRsim 1run.mac $1 /fcc/tikim/results/ele/iron/e_70GeV_0th//root/e_70GeV_0th 
+  // 0           1        2  3
+  if (argc > 2) seed = atoi(argv[2]); // function from the cstdlib header file used to convert a string value to an integer value
+  if (argc > 3) filename = argv[3]; 
 
   CLHEP::HepRandom::setTheEngine(new CLHEP::RanecuEngine);
   CLHEP::HepRandom::setTheSeed(seed);

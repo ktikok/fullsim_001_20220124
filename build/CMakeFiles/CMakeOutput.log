@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/3.14.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/3.14.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ 
@@ -23,43 +23,42 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/3.14.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/3.14.2/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp
+Change Dir: /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_74bf6/fast 
-/usr/bin/gmake -f CMakeFiles/cmTC_74bf6.dir/build.make CMakeFiles/cmTC_74bf6.dir/build
-gmake[1]: Entering directory `/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_74bf6.dir/testCCompiler.c.o
-/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/gcc    -o CMakeFiles/cmTC_74bf6.dir/testCCompiler.c.o   -c /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_74bf6
-/cvmfs/sft.cern.ch/lcg/contrib/CMake/3.14.2/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74bf6.dir/link.txt --verbose=1
-/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/gcc      CMakeFiles/cmTC_74bf6.dir/testCCompiler.c.o  -o cmTC_74bf6 
-gmake[1]: Leaving directory `/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake cmTC_49b47/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_49b47.dir/build.make CMakeFiles/cmTC_49b47.dir/build
+gmake[1]: Entering directory `/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_49b47.dir/testCCompiler.c.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/gcc    -o CMakeFiles/cmTC_49b47.dir/testCCompiler.c.o   -c /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_49b47
+/cvmfs/sft.cern.ch/lcg/contrib/CMake/3.14.2/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49b47.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/gcc      CMakeFiles/cmTC_49b47.dir/testCCompiler.c.o  -o cmTC_49b47 
+gmake[1]: Leaving directory `/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp
+Change Dir: /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_299ae/fast 
-/usr/bin/gmake -f CMakeFiles/cmTC_299ae.dir/build.make CMakeFiles/cmTC_299ae.dir/build
-gmake[1]: Entering directory `/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_299ae.dir/CMakeCCompilerABI.c.o
-/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/gcc   -v -o CMakeFiles/cmTC_299ae.dir/CMakeCCompilerABI.c.o   -c /cvmfs/sft.cern.ch/lcg/contrib/CMake/3.14.2/Linux-x86_64/share/cmake-3.14/Modules/CMakeCCompilerABI.c
+Run Build Command(s):/usr/bin/gmake cmTC_b6110/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_b6110.dir/build.make CMakeFiles/cmTC_b6110.dir/build
+gmake[1]: Entering directory `/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b6110.dir/CMakeCCompilerABI.c.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/gcc   -v -o CMakeFiles/cmTC_b6110.dir/CMakeCCompilerABI.c.o   -c /cvmfs/sft.cern.ch/lcg/contrib/CMake/3.14.2/Linux-x86_64/share/cmake-3.14/Modules/CMakeCCompilerABI.c
 Using built-in specs.
 COLLECT_GCC=/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/gcc
 Target: x86_64-pc-linux-gnu
 Configured with: /tmp/dkonst/build/contrib/gcc-8.3.0/src/gcc/8.3.0/configure --prefix=/tmp/dkonst/lcgcmake-install/gcc/8.3.0/x86_64-centos7 -with-system-zlib --disable-multilib --enable-languages=all --with-gnu-ld --with-ld=/tmp/dkonst/lcgcmake-install/binutils/2.30/x86_64-centos7/bin/ld --with-gnu-as --with-as=/tmp/dkonst/lcgcmake-install/binutils/2.30/x86_64-centos7/bin/as
 Thread model: posix
 gcc version 8.3.0 (GCC) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_299ae.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
- /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/cc1 -quiet -v -iprefix /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/ -isystem /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/include /cvmfs/sft.cern.ch/lcg/contrib/CMake/3.14.2/Linux-x86_64/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_299ae.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccRbFJBm.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b6110.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/cc1 -quiet -v -iprefix /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/ -isystem /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/include /cvmfs/sft.cern.ch/lcg/contrib/CMake/3.14.2/Linux-x86_64/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_b6110.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccbc1PlV.s
 GNU C17 (GCC) version 8.3.0 (x86_64-pc-linux-gnu)
 	compiled by GNU C version 8.3.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/LCG_96b/Boost/1.70.0/x86_64-centos7-gcc8-opt/include"
 ignoring nonexistent directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../x86_64-pc-linux-gnu/include"
 ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/8.3.0/include"
 ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/../../include"
@@ -80,15 +79,15 @@ GNU C17 (GCC) version 8.3.0 (x86_64-pc-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: b475cb7e86774771f388e9a917a216d2
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_299ae.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
- as -v --64 -o CMakeFiles/cmTC_299ae.dir/CMakeCCompilerABI.c.o /tmp/ccRbFJBm.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b6110.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_b6110.dir/CMakeCCompilerABI.c.o /tmp/ccbc1PlV.s
 GNU assembler version 2.30 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.30
 COMPILER_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/
 LIBRARY_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_299ae.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
-Linking C executable cmTC_299ae
-/cvmfs/sft.cern.ch/lcg/contrib/CMake/3.14.2/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_299ae.dir/link.txt --verbose=1
-/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/gcc     -v CMakeFiles/cmTC_299ae.dir/CMakeCCompilerABI.c.o  -o cmTC_299ae 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b6110.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_b6110
+/cvmfs/sft.cern.ch/lcg/contrib/CMake/3.14.2/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6110.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/gcc     -v CMakeFiles/cmTC_b6110.dir/CMakeCCompilerABI.c.o  -o cmTC_b6110 
 Using built-in specs.
 COLLECT_GCC=/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/gcc
 COLLECT_LTO_WRAPPER=/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/lto-wrapper
@@ -98,10 +97,10 @@ Thread model: posix
 gcc version 8.3.0 (GCC) 
 COMPILER_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/
 LIBRARY_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_299ae' '-mtune=generic' '-march=x86-64'
- /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/collect2 -plugin /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/liblto_plugin.so -plugin-opt=/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPnCtmr.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_299ae /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtbegin.o -L/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc -L/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../.. CMakeFiles/cmTC_299ae.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtend.o /lib/../lib64/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_299ae' '-mtune=generic' '-march=x86-64'
-gmake[1]: Leaving directory `/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b6110' '-mtune=generic' '-march=x86-64'
+ /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/collect2 -plugin /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/liblto_plugin.so -plugin-opt=/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4DJNq7.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_b6110 /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtbegin.o -L/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc -L/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../.. CMakeFiles/cmTC_b6110.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b6110' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory `/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit include dir info from above output: rv=done
@@ -127,26 +126,25 @@ Parsed C implicit include dir info from above output: rv=done
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_299ae/fast ]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_299ae.dir/build.make CMakeFiles/cmTC_299ae.dir/build]
-  ignore line: [gmake[1]: Entering directory `/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_299ae.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/gcc   -v -o CMakeFiles/cmTC_299ae.dir/CMakeCCompilerABI.c.o   -c /cvmfs/sft.cern.ch/lcg/contrib/CMake/3.14.2/Linux-x86_64/share/cmake-3.14/Modules/CMakeCCompilerABI.c]
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_b6110/fast ]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_b6110.dir/build.make CMakeFiles/cmTC_b6110.dir/build]
+  ignore line: [gmake[1]: Entering directory `/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_b6110.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/gcc   -v -o CMakeFiles/cmTC_b6110.dir/CMakeCCompilerABI.c.o   -c /cvmfs/sft.cern.ch/lcg/contrib/CMake/3.14.2/Linux-x86_64/share/cmake-3.14/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/gcc]
   ignore line: [Target: x86_64-pc-linux-gnu]
   ignore line: [Configured with: /tmp/dkonst/build/contrib/gcc-8.3.0/src/gcc/8.3.0/configure --prefix=/tmp/dkonst/lcgcmake-install/gcc/8.3.0/x86_64-centos7 -with-system-zlib --disable-multilib --enable-languages=all --with-gnu-ld --with-ld=/tmp/dkonst/lcgcmake-install/binutils/2.30/x86_64-centos7/bin/ld --with-gnu-as --with-as=/tmp/dkonst/lcgcmake-install/binutils/2.30/x86_64-centos7/bin/as]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 8.3.0 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_299ae.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-  ignore line: [ /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/cc1 -quiet -v -iprefix /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/ -isystem /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/include /cvmfs/sft.cern.ch/lcg/contrib/CMake/3.14.2/Linux-x86_64/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_299ae.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccRbFJBm.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b6110.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/cc1 -quiet -v -iprefix /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/ -isystem /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/include /cvmfs/sft.cern.ch/lcg/contrib/CMake/3.14.2/Linux-x86_64/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_b6110.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccbc1PlV.s]
   ignore line: [GNU C17 (GCC) version 8.3.0 (x86_64-pc-linux-gnu)]
   ignore line: [	compiled by GNU C version 8.3.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP]
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/LCG_96b/Boost/1.70.0/x86_64-centos7-gcc8-opt/include"]
   ignore line: [ignoring nonexistent directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../x86_64-pc-linux-gnu/include"]
   ignore line: [ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/8.3.0/include"]
   ignore line: [ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/../../include"]
@@ -167,15 +165,15 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: b475cb7e86774771f388e9a917a216d2]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_299ae.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_299ae.dir/CMakeCCompilerABI.c.o /tmp/ccRbFJBm.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b6110.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_b6110.dir/CMakeCCompilerABI.c.o /tmp/ccbc1PlV.s]
   ignore line: [GNU assembler version 2.30 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.30]
   ignore line: [COMPILER_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/]
   ignore line: [LIBRARY_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_299ae.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-  ignore line: [Linking C executable cmTC_299ae]
-  ignore line: [/cvmfs/sft.cern.ch/lcg/contrib/CMake/3.14.2/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_299ae.dir/link.txt --verbose=1]
-  ignore line: [/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/gcc     -v CMakeFiles/cmTC_299ae.dir/CMakeCCompilerABI.c.o  -o cmTC_299ae ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b6110.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_b6110]
+  ignore line: [/cvmfs/sft.cern.ch/lcg/contrib/CMake/3.14.2/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6110.dir/link.txt --verbose=1]
+  ignore line: [/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/gcc     -v CMakeFiles/cmTC_b6110.dir/CMakeCCompilerABI.c.o  -o cmTC_b6110 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/gcc]
   ignore line: [COLLECT_LTO_WRAPPER=/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/lto-wrapper]
@@ -185,13 +183,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 8.3.0 (GCC) ]
   ignore line: [COMPILER_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/]
   ignore line: [LIBRARY_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_299ae' '-mtune=generic' '-march=x86-64']
-  link line: [ /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/collect2 -plugin /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/liblto_plugin.so -plugin-opt=/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPnCtmr.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_299ae /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtbegin.o -L/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc -L/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../.. CMakeFiles/cmTC_299ae.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtend.o /lib/../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b6110' '-mtune=generic' '-march=x86-64']
+  link line: [ /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/collect2 -plugin /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/liblto_plugin.so -plugin-opt=/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4DJNq7.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_b6110 /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtbegin.o -L/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc -L/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../.. CMakeFiles/cmTC_b6110.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtend.o /lib/../lib64/crtn.o]
     arg [/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccPnCtmr.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc4DJNq7.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -203,7 +201,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_299ae] ==> ignore
+    arg [cmTC_b6110] ==> ignore
     arg [/lib/../lib64/crt1.o] ==> ignore
     arg [/lib/../lib64/crti.o] ==> ignore
     arg [/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtbegin.o] ==> ignore
@@ -213,7 +211,7 @@ Parsed C implicit link information from above output:
     arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
     arg [-L/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../..] ==> dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../..]
-    arg [CMakeFiles/cmTC_299ae.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_b6110.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -239,17 +237,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp
+Change Dir: /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_814df/fast 
-/usr/bin/gmake -f CMakeFiles/cmTC_814df.dir/build.make CMakeFiles/cmTC_814df.dir/build
-gmake[1]: Entering directory `/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_814df.dir/feature_tests.c.o
-/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/gcc   -std=c11 -o CMakeFiles/cmTC_814df.dir/feature_tests.c.o   -c /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_814df
-/cvmfs/sft.cern.ch/lcg/contrib/CMake/3.14.2/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_814df.dir/link.txt --verbose=1
-/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/gcc      CMakeFiles/cmTC_814df.dir/feature_tests.c.o  -o cmTC_814df 
-gmake[1]: Leaving directory `/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake cmTC_52c1e/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_52c1e.dir/build.make CMakeFiles/cmTC_52c1e.dir/build
+gmake[1]: Entering directory `/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_52c1e.dir/feature_tests.c.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/gcc   -std=c11 -o CMakeFiles/cmTC_52c1e.dir/feature_tests.c.o   -c /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_52c1e
+/cvmfs/sft.cern.ch/lcg/contrib/CMake/3.14.2/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52c1e.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/gcc      CMakeFiles/cmTC_52c1e.dir/feature_tests.c.o  -o cmTC_52c1e 
+gmake[1]: Leaving directory `/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -259,17 +257,17 @@ gmake[1]: Leaving directory `/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dua
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp
+Change Dir: /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_e345e/fast 
-/usr/bin/gmake -f CMakeFiles/cmTC_e345e.dir/build.make CMakeFiles/cmTC_e345e.dir/build
-gmake[1]: Entering directory `/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e345e.dir/feature_tests.c.o
-/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/gcc   -std=c99 -o CMakeFiles/cmTC_e345e.dir/feature_tests.c.o   -c /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_e345e
-/cvmfs/sft.cern.ch/lcg/contrib/CMake/3.14.2/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e345e.dir/link.txt --verbose=1
-/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/gcc      CMakeFiles/cmTC_e345e.dir/feature_tests.c.o  -o cmTC_e345e 
-gmake[1]: Leaving directory `/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake cmTC_db879/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_db879.dir/build.make CMakeFiles/cmTC_db879.dir/build
+gmake[1]: Entering directory `/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_db879.dir/feature_tests.c.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/gcc   -std=c99 -o CMakeFiles/cmTC_db879.dir/feature_tests.c.o   -c /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_db879
+/cvmfs/sft.cern.ch/lcg/contrib/CMake/3.14.2/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db879.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/gcc      CMakeFiles/cmTC_db879.dir/feature_tests.c.o  -o cmTC_db879 
+gmake[1]: Leaving directory `/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -279,17 +277,17 @@ gmake[1]: Leaving directory `/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dua
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp
+Change Dir: /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_8510f/fast 
-/usr/bin/gmake -f CMakeFiles/cmTC_8510f.dir/build.make CMakeFiles/cmTC_8510f.dir/build
-gmake[1]: Entering directory `/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8510f.dir/feature_tests.c.o
-/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/gcc   -std=c90 -o CMakeFiles/cmTC_8510f.dir/feature_tests.c.o   -c /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_8510f
-/cvmfs/sft.cern.ch/lcg/contrib/CMake/3.14.2/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8510f.dir/link.txt --verbose=1
-/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/gcc      CMakeFiles/cmTC_8510f.dir/feature_tests.c.o  -o cmTC_8510f 
-gmake[1]: Leaving directory `/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake cmTC_dc9e6/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_dc9e6.dir/build.make CMakeFiles/cmTC_dc9e6.dir/build
+gmake[1]: Entering directory `/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dc9e6.dir/feature_tests.c.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/gcc   -std=c90 -o CMakeFiles/cmTC_dc9e6.dir/feature_tests.c.o   -c /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_dc9e6
+/cvmfs/sft.cern.ch/lcg/contrib/CMake/3.14.2/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc9e6.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/gcc      CMakeFiles/cmTC_dc9e6.dir/feature_tests.c.o  -o cmTC_dc9e6 
+gmake[1]: Leaving directory `/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -297,40 +295,39 @@ gmake[1]: Leaving directory `/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dua
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp
+Change Dir: /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_c7a06/fast 
-/usr/bin/gmake -f CMakeFiles/cmTC_c7a06.dir/build.make CMakeFiles/cmTC_c7a06.dir/build
-gmake[1]: Entering directory `/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c7a06.dir/testCXXCompiler.cxx.o
-/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++     -o CMakeFiles/cmTC_c7a06.dir/testCXXCompiler.cxx.o -c /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_c7a06
-/cvmfs/sft.cern.ch/lcg/contrib/CMake/3.14.2/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7a06.dir/link.txt --verbose=1
-/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++       CMakeFiles/cmTC_c7a06.dir/testCXXCompiler.cxx.o  -o cmTC_c7a06 
-gmake[1]: Leaving directory `/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake cmTC_f9c5a/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_f9c5a.dir/build.make CMakeFiles/cmTC_f9c5a.dir/build
+gmake[1]: Entering directory `/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f9c5a.dir/testCXXCompiler.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++     -o CMakeFiles/cmTC_f9c5a.dir/testCXXCompiler.cxx.o -c /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_f9c5a
+/cvmfs/sft.cern.ch/lcg/contrib/CMake/3.14.2/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9c5a.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++       CMakeFiles/cmTC_f9c5a.dir/testCXXCompiler.cxx.o  -o cmTC_f9c5a 
+gmake[1]: Leaving directory `/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp
+Change Dir: /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_7006d/fast 
-/usr/bin/gmake -f CMakeFiles/cmTC_7006d.dir/build.make CMakeFiles/cmTC_7006d.dir/build
-gmake[1]: Entering directory `/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_7006d.dir/CMakeCXXCompilerABI.cpp.o
-/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++    -v -o CMakeFiles/cmTC_7006d.dir/CMakeCXXCompilerABI.cpp.o -c /cvmfs/sft.cern.ch/lcg/contrib/CMake/3.14.2/Linux-x86_64/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp
+Run Build Command(s):/usr/bin/gmake cmTC_0e674/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_0e674.dir/build.make CMakeFiles/cmTC_0e674.dir/build
+gmake[1]: Entering directory `/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0e674.dir/CMakeCXXCompilerABI.cpp.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++    -v -o CMakeFiles/cmTC_0e674.dir/CMakeCXXCompilerABI.cpp.o -c /cvmfs/sft.cern.ch/lcg/contrib/CMake/3.14.2/Linux-x86_64/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
 COLLECT_GCC=/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++
 Target: x86_64-pc-linux-gnu
 Configured with: /tmp/dkonst/build/contrib/gcc-8.3.0/src/gcc/8.3.0/configure --prefix=/tmp/dkonst/lcgcmake-install/gcc/8.3.0/x86_64-centos7 -with-system-zlib --disable-multilib --enable-languages=all --with-gnu-ld --with-ld=/tmp/dkonst/lcgcmake-install/binutils/2.30/x86_64-centos7/bin/ld --with-gnu-as --with-as=/tmp/dkonst/lcgcmake-install/binutils/2.30/x86_64-centos7/bin/as
 Thread model: posix
 gcc version 8.3.0 (GCC) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7006d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/cc1plus -quiet -v -iprefix /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/ -isystem /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/include -D_GNU_SOURCE /cvmfs/sft.cern.ch/lcg/contrib/CMake/3.14.2/Linux-x86_64/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_7006d.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/cc1smTJi.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0e674.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/cc1plus -quiet -v -iprefix /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/ -isystem /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/include -D_GNU_SOURCE /cvmfs/sft.cern.ch/lcg/contrib/CMake/3.14.2/Linux-x86_64/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_0e674.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/cczb5a2l.s
 GNU C++14 (GCC) version 8.3.0 (x86_64-pc-linux-gnu)
 	compiled by GNU C version 8.3.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/LCG_96b/Boost/1.70.0/x86_64-centos7-gcc8-opt/include"
 ignoring nonexistent directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../x86_64-pc-linux-gnu/include"
 ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0"
 ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu"
@@ -357,15 +354,15 @@ GNU C++14 (GCC) version 8.3.0 (x86_64-pc-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 10e38d869c22b3e45b98f3c2f1cb2073
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7006d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- as -v --64 -o CMakeFiles/cmTC_7006d.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc1smTJi.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0e674.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_0e674.dir/CMakeCXXCompilerABI.cpp.o /tmp/cczb5a2l.s
 GNU assembler version 2.30 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.30
 COMPILER_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/
 LIBRARY_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7006d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-Linking CXX executable cmTC_7006d
-/cvmfs/sft.cern.ch/lcg/contrib/CMake/3.14.2/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7006d.dir/link.txt --verbose=1
-/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++      -v CMakeFiles/cmTC_7006d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_7006d 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0e674.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_0e674
+/cvmfs/sft.cern.ch/lcg/contrib/CMake/3.14.2/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e674.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++      -v CMakeFiles/cmTC_0e674.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_0e674 
 Using built-in specs.
 COLLECT_GCC=/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++
 COLLECT_LTO_WRAPPER=/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/lto-wrapper
@@ -375,10 +372,10 @@ Thread model: posix
 gcc version 8.3.0 (GCC) 
 COMPILER_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/
 LIBRARY_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7006d' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/collect2 -plugin /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/liblto_plugin.so -plugin-opt=/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpDV3Fu.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_7006d /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtbegin.o -L/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc -L/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../.. CMakeFiles/cmTC_7006d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtend.o /lib/../lib64/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7006d' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-gmake[1]: Leaving directory `/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0e674' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/collect2 -plugin /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/liblto_plugin.so -plugin-opt=/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1FIKxA.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_0e674 /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtbegin.o -L/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc -L/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../.. CMakeFiles/cmTC_0e674.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0e674' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory `/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit include dir info from above output: rv=done
@@ -410,26 +407,25 @@ Parsed CXX implicit include dir info from above output: rv=done
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_7006d/fast ]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_7006d.dir/build.make CMakeFiles/cmTC_7006d.dir/build]
-  ignore line: [gmake[1]: Entering directory `/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_7006d.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++    -v -o CMakeFiles/cmTC_7006d.dir/CMakeCXXCompilerABI.cpp.o -c /cvmfs/sft.cern.ch/lcg/contrib/CMake/3.14.2/Linux-x86_64/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_0e674/fast ]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_0e674.dir/build.make CMakeFiles/cmTC_0e674.dir/build]
+  ignore line: [gmake[1]: Entering directory `/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_0e674.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++    -v -o CMakeFiles/cmTC_0e674.dir/CMakeCXXCompilerABI.cpp.o -c /cvmfs/sft.cern.ch/lcg/contrib/CMake/3.14.2/Linux-x86_64/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++]
   ignore line: [Target: x86_64-pc-linux-gnu]
   ignore line: [Configured with: /tmp/dkonst/build/contrib/gcc-8.3.0/src/gcc/8.3.0/configure --prefix=/tmp/dkonst/lcgcmake-install/gcc/8.3.0/x86_64-centos7 -with-system-zlib --disable-multilib --enable-languages=all --with-gnu-ld --with-ld=/tmp/dkonst/lcgcmake-install/binutils/2.30/x86_64-centos7/bin/ld --with-gnu-as --with-as=/tmp/dkonst/lcgcmake-install/binutils/2.30/x86_64-centos7/bin/as]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 8.3.0 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7006d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  ignore line: [ /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/cc1plus -quiet -v -iprefix /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/ -isystem /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/include -D_GNU_SOURCE /cvmfs/sft.cern.ch/lcg/contrib/CMake/3.14.2/Linux-x86_64/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_7006d.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/cc1smTJi.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0e674.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/cc1plus -quiet -v -iprefix /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/ -isystem /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/include -D_GNU_SOURCE /cvmfs/sft.cern.ch/lcg/contrib/CMake/3.14.2/Linux-x86_64/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_0e674.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/cczb5a2l.s]
   ignore line: [GNU C++14 (GCC) version 8.3.0 (x86_64-pc-linux-gnu)]
   ignore line: [	compiled by GNU C version 8.3.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP]
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/LCG_96b/Boost/1.70.0/x86_64-centos7-gcc8-opt/include"]
   ignore line: [ignoring nonexistent directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../x86_64-pc-linux-gnu/include"]
   ignore line: [ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0"]
   ignore line: [ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu"]
@@ -456,15 +452,15 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 10e38d869c22b3e45b98f3c2f1cb2073]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7006d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_7006d.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc1smTJi.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0e674.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_0e674.dir/CMakeCXXCompilerABI.cpp.o /tmp/cczb5a2l.s]
   ignore line: [GNU assembler version 2.30 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.30]
   ignore line: [COMPILER_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/]
   ignore line: [LIBRARY_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7006d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  ignore line: [Linking CXX executable cmTC_7006d]
-  ignore line: [/cvmfs/sft.cern.ch/lcg/contrib/CMake/3.14.2/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7006d.dir/link.txt --verbose=1]
-  ignore line: [/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++      -v CMakeFiles/cmTC_7006d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_7006d ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0e674.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_0e674]
+  ignore line: [/cvmfs/sft.cern.ch/lcg/contrib/CMake/3.14.2/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e674.dir/link.txt --verbose=1]
+  ignore line: [/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++      -v CMakeFiles/cmTC_0e674.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_0e674 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++]
   ignore line: [COLLECT_LTO_WRAPPER=/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/lto-wrapper]
@@ -474,13 +470,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 8.3.0 (GCC) ]
   ignore line: [COMPILER_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/]
   ignore line: [LIBRARY_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7006d' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/collect2 -plugin /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/liblto_plugin.so -plugin-opt=/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpDV3Fu.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_7006d /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtbegin.o -L/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc -L/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../.. CMakeFiles/cmTC_7006d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtend.o /lib/../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0e674' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/collect2 -plugin /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/liblto_plugin.so -plugin-opt=/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1FIKxA.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_0e674 /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtbegin.o -L/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc -L/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../.. CMakeFiles/cmTC_0e674.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtend.o /lib/../lib64/crtn.o]
     arg [/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccpDV3Fu.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc1FIKxA.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -492,7 +488,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_7006d] ==> ignore
+    arg [cmTC_0e674] ==> ignore
     arg [/lib/../lib64/crt1.o] ==> ignore
     arg [/lib/../lib64/crti.o] ==> ignore
     arg [/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtbegin.o] ==> ignore
@@ -502,7 +498,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
     arg [-L/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../..] ==> dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../..]
-    arg [CMakeFiles/cmTC_7006d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_0e674.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -526,17 +522,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++2a] compiler features compiled with the following output:
-Change Dir: /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp
+Change Dir: /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_00943/fast 
-/usr/bin/gmake -f CMakeFiles/cmTC_00943.dir/build.make CMakeFiles/cmTC_00943.dir/build
-gmake[1]: Entering directory `/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_00943.dir/feature_tests.cxx.o
-/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++    -std=c++2a -o CMakeFiles/cmTC_00943.dir/feature_tests.cxx.o -c /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_00943
-/cvmfs/sft.cern.ch/lcg/contrib/CMake/3.14.2/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00943.dir/link.txt --verbose=1
-/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++       CMakeFiles/cmTC_00943.dir/feature_tests.cxx.o  -o cmTC_00943 
-gmake[1]: Leaving directory `/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake cmTC_2dc8d/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_2dc8d.dir/build.make CMakeFiles/cmTC_2dc8d.dir/build
+gmake[1]: Entering directory `/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2dc8d.dir/feature_tests.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++    -std=c++2a -o CMakeFiles/cmTC_2dc8d.dir/feature_tests.cxx.o -c /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_2dc8d
+/cvmfs/sft.cern.ch/lcg/contrib/CMake/3.14.2/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2dc8d.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++       CMakeFiles/cmTC_2dc8d.dir/feature_tests.cxx.o  -o cmTC_2dc8d 
+gmake[1]: Leaving directory `/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -599,17 +595,17 @@ gmake[1]: Leaving directory `/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dua
 
 
 Detecting CXX [-std=c++17] compiler features compiled with the following output:
-Change Dir: /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp
+Change Dir: /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_2cd05/fast 
-/usr/bin/gmake -f CMakeFiles/cmTC_2cd05.dir/build.make CMakeFiles/cmTC_2cd05.dir/build
-gmake[1]: Entering directory `/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_2cd05.dir/feature_tests.cxx.o
-/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++    -std=c++17 -o CMakeFiles/cmTC_2cd05.dir/feature_tests.cxx.o -c /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_2cd05
-/cvmfs/sft.cern.ch/lcg/contrib/CMake/3.14.2/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2cd05.dir/link.txt --verbose=1
-/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++       CMakeFiles/cmTC_2cd05.dir/feature_tests.cxx.o  -o cmTC_2cd05 
-gmake[1]: Leaving directory `/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake cmTC_db54a/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_db54a.dir/build.make CMakeFiles/cmTC_db54a.dir/build
+gmake[1]: Entering directory `/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_db54a.dir/feature_tests.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++    -std=c++17 -o CMakeFiles/cmTC_db54a.dir/feature_tests.cxx.o -c /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_db54a
+/cvmfs/sft.cern.ch/lcg/contrib/CMake/3.14.2/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db54a.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++       CMakeFiles/cmTC_db54a.dir/feature_tests.cxx.o  -o cmTC_db54a 
+gmake[1]: Leaving directory `/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -672,17 +668,17 @@ gmake[1]: Leaving directory `/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dua
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp
+Change Dir: /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_a3482/fast 
-/usr/bin/gmake -f CMakeFiles/cmTC_a3482.dir/build.make CMakeFiles/cmTC_a3482.dir/build
-gmake[1]: Entering directory `/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a3482.dir/feature_tests.cxx.o
-/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++    -std=c++14 -o CMakeFiles/cmTC_a3482.dir/feature_tests.cxx.o -c /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_a3482
-/cvmfs/sft.cern.ch/lcg/contrib/CMake/3.14.2/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3482.dir/link.txt --verbose=1
-/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++       CMakeFiles/cmTC_a3482.dir/feature_tests.cxx.o  -o cmTC_a3482 
-gmake[1]: Leaving directory `/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake cmTC_7ec28/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_7ec28.dir/build.make CMakeFiles/cmTC_7ec28.dir/build
+gmake[1]: Entering directory `/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7ec28.dir/feature_tests.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++    -std=c++14 -o CMakeFiles/cmTC_7ec28.dir/feature_tests.cxx.o -c /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_7ec28
+/cvmfs/sft.cern.ch/lcg/contrib/CMake/3.14.2/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ec28.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++       CMakeFiles/cmTC_7ec28.dir/feature_tests.cxx.o  -o cmTC_7ec28 
+gmake[1]: Leaving directory `/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -745,17 +741,17 @@ gmake[1]: Leaving directory `/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dua
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp
+Change Dir: /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_4e2bd/fast 
-/usr/bin/gmake -f CMakeFiles/cmTC_4e2bd.dir/build.make CMakeFiles/cmTC_4e2bd.dir/build
-gmake[1]: Entering directory `/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_4e2bd.dir/feature_tests.cxx.o
-/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++    -std=c++11 -o CMakeFiles/cmTC_4e2bd.dir/feature_tests.cxx.o -c /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_4e2bd
-/cvmfs/sft.cern.ch/lcg/contrib/CMake/3.14.2/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e2bd.dir/link.txt --verbose=1
-/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++       CMakeFiles/cmTC_4e2bd.dir/feature_tests.cxx.o  -o cmTC_4e2bd 
-gmake[1]: Leaving directory `/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake cmTC_16ec8/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_16ec8.dir/build.make CMakeFiles/cmTC_16ec8.dir/build
+gmake[1]: Entering directory `/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_16ec8.dir/feature_tests.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++    -std=c++11 -o CMakeFiles/cmTC_16ec8.dir/feature_tests.cxx.o -c /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_16ec8
+/cvmfs/sft.cern.ch/lcg/contrib/CMake/3.14.2/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16ec8.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++       CMakeFiles/cmTC_16ec8.dir/feature_tests.cxx.o  -o cmTC_16ec8 
+gmake[1]: Leaving directory `/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -818,17 +814,17 @@ gmake[1]: Leaving directory `/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dua
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp
+Change Dir: /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_83970/fast 
-/usr/bin/gmake -f CMakeFiles/cmTC_83970.dir/build.make CMakeFiles/cmTC_83970.dir/build
-gmake[1]: Entering directory `/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_83970.dir/feature_tests.cxx.o
-/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++    -std=c++98 -o CMakeFiles/cmTC_83970.dir/feature_tests.cxx.o -c /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_83970
-/cvmfs/sft.cern.ch/lcg/contrib/CMake/3.14.2/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83970.dir/link.txt --verbose=1
-/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++       CMakeFiles/cmTC_83970.dir/feature_tests.cxx.o  -o cmTC_83970 
-gmake[1]: Leaving directory `/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake cmTC_377fb/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_377fb.dir/build.make CMakeFiles/cmTC_377fb.dir/build
+gmake[1]: Entering directory `/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_377fb.dir/feature_tests.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++    -std=c++98 -o CMakeFiles/cmTC_377fb.dir/feature_tests.cxx.o -c /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_377fb
+/cvmfs/sft.cern.ch/lcg/contrib/CMake/3.14.2/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_377fb.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++       CMakeFiles/cmTC_377fb.dir/feature_tests.cxx.o  -o cmTC_377fb 
+gmake[1]: Leaving directory `/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

@@ -28,11 +28,11 @@ cp setenv-cc7-gcc8.sh install/
     CuZn37->AddElement(elZn, 0.3);
 
 # do : -------------------------------------------------------------------------------------
-cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/install ;source setenv-cc7-gcc8.sh 
+cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/install ;source setenv-cc7-gcc8.sh 
 
 
 # to apply change
-cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/; make -j12 install; cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/install
+cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/; make -j12 install; cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/install
 
 # for visualization : 
 ./bin/DRsim

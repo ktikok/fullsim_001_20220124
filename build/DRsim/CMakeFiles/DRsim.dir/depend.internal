@@ -569,7 +569,7 @@ DRsim/CMakeFiles/DRsim.dir/DRsim.cc.o
  /cvmfs/geant4.cern.ch/geant4/10.5.p01/x86_64-centos7-gcc8-opt-MT/include/Geant4/tls.hh
  /cvmfs/geant4.cern.ch/geant4/10.5.p01/x86_64-centos7-gcc8-opt-MT/include/Geant4/trajectoryControl.hh
  /cvmfs/geant4.cern.ch/geant4/10.5.p01/x86_64-centos7-gcc8-opt-MT/include/Geant4/trkdefs.hh
- /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/DRsim.cc
+ /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/DRsim.cc
 DRsim/CMakeFiles/DRsim.dir/src/DRsimActionInitialization.cc.o
  ../DRsim/include/DRsimActionInitialization.hh
  ../DRsim/include/DRsimEventAction.hh
@@ -859,7 +859,7 @@ DRsim/CMakeFiles/DRsim.dir/src/DRsimActionInitialization.cc.o
  /cvmfs/sft.cern.ch/lcg/releases/LCG_96b/hepmc3/3.1.2/x86_64-centos7-gcc8-opt/include/HepMC3/ReaderRootTree.h
  /cvmfs/sft.cern.ch/lcg/releases/LCG_96b/hepmc3/3.1.2/x86_64-centos7-gcc8-opt/include/HepMC3/Setup.h
  /cvmfs/sft.cern.ch/lcg/releases/LCG_96b/hepmc3/3.1.2/x86_64-centos7-gcc8-opt/include/HepMC3/Units.h
- /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimActionInitialization.cc
+ /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimActionInitialization.cc
 DRsim/CMakeFiles/DRsim.dir/src/DRsimCellParameterisation.cc.o
  ../DRsim/include/DRsimCellParameterisation.hh
  /cvmfs/geant4.cern.ch/externals/clhep/2.4.1.0/x86_64-centos7-gcc8-opt/lib/CLHEP-2.4.1.0/../../include/CLHEP/Units/PhysicalConstants.h
@@ -917,7 +917,7 @@ DRsim/CMakeFiles/DRsim.dir/src/DRsimCellParameterisation.cc.o
  /cvmfs/geant4.cern.ch/geant4/10.5.p01/x86_64-centos7-gcc8-opt-MT/include/Geant4/graphics_reps_defs.hh
  /cvmfs/geant4.cern.ch/geant4/10.5.p01/x86_64-centos7-gcc8-opt-MT/include/Geant4/templates.hh
  /cvmfs/geant4.cern.ch/geant4/10.5.p01/x86_64-centos7-gcc8-opt-MT/include/Geant4/tls.hh
- /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimCellParameterisation.cc
+ /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimCellParameterisation.cc
 DRsim/CMakeFiles/DRsim.dir/src/DRsimDetectorConstruction.cc.o
  ../DRsim/include/DRsimCellParameterisation.hh
  ../DRsim/include/DRsimDetectorConstruction.hh
@@ -1136,7 +1136,7 @@ DRsim/CMakeFiles/DRsim.dir/src/DRsimDetectorConstruction.cc.o
  /cvmfs/geant4.cern.ch/geant4/10.5.p01/x86_64-centos7-gcc8-opt-MT/include/Geant4/templates.hh
  /cvmfs/geant4.cern.ch/geant4/10.5.p01/x86_64-centos7-gcc8-opt-MT/include/Geant4/tls.hh
  /cvmfs/geant4.cern.ch/geant4/10.5.p01/x86_64-centos7-gcc8-opt-MT/include/Geant4/trkdefs.hh
- /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimDetectorConstruction.cc
+ /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimDetectorConstruction.cc
 DRsim/CMakeFiles/DRsim.dir/src/DRsimEventAction.cc.o
  ../DRsim/include/DRsimDetectorConstruction.hh
  ../DRsim/include/DRsimEventAction.hh
@@ -1579,7 +1579,7 @@ DRsim/CMakeFiles/DRsim.dir/src/DRsimEventAction.cc.o
  /cvmfs/sft.cern.ch/lcg/releases/LCG_96b/hepmc3/3.1.2/x86_64-centos7-gcc8-opt/include/HepMC3/ReaderRootTree.h
  /cvmfs/sft.cern.ch/lcg/releases/LCG_96b/hepmc3/3.1.2/x86_64-centos7-gcc8-opt/include/HepMC3/Setup.h
  /cvmfs/sft.cern.ch/lcg/releases/LCG_96b/hepmc3/3.1.2/x86_64-centos7-gcc8-opt/include/HepMC3/Units.h
- /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimEventAction.cc
+ /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimEventAction.cc
 DRsim/CMakeFiles/DRsim.dir/src/DRsimFilterParameterisation.cc.o
  ../DRsim/include/DRsimCellParameterisation.hh
  ../DRsim/include/DRsimFilterParameterisation.hh
@@ -1640,7 +1640,7 @@ DRsim/CMakeFiles/DRsim.dir/src/DRsimFilterParameterisation.cc.o
  /cvmfs/geant4.cern.ch/geant4/10.5.p01/x86_64-centos7-gcc8-opt-MT/include/Geant4/graphics_reps_defs.hh
  /cvmfs/geant4.cern.ch/geant4/10.5.p01/x86_64-centos7-gcc8-opt-MT/include/Geant4/templates.hh
  /cvmfs/geant4.cern.ch/geant4/10.5.p01/x86_64-centos7-gcc8-opt-MT/include/Geant4/tls.hh
- /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimFilterParameterisation.cc
+ /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimFilterParameterisation.cc
 DRsim/CMakeFiles/DRsim.dir/src/DRsimMagneticField.cc.o
  ../DRsim/include/DRsimMagneticField.hh
  /cvmfs/geant4.cern.ch/externals/clhep/2.4.1.0/x86_64-centos7-gcc8-opt/lib/CLHEP-2.4.1.0/../../include/CLHEP/Units/SystemOfUnits.h
@@ -1672,7 +1672,7 @@ DRsim/CMakeFiles/DRsim.dir/src/DRsimMagneticField.cc.o
  /cvmfs/geant4.cern.ch/geant4/10.5.p01/x86_64-centos7-gcc8-opt-MT/include/Geant4/globals.hh
  /cvmfs/geant4.cern.ch/geant4/10.5.p01/x86_64-centos7-gcc8-opt-MT/include/Geant4/templates.hh
  /cvmfs/geant4.cern.ch/geant4/10.5.p01/x86_64-centos7-gcc8-opt-MT/include/Geant4/tls.hh
- /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimMagneticField.cc
+ /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimMagneticField.cc
 DRsim/CMakeFiles/DRsim.dir/src/DRsimMaterials.cc.o
  ../DRsim/include/DRsimMaterials.hh
  /cvmfs/geant4.cern.ch/externals/clhep/2.4.1.0/x86_64-centos7-gcc8-opt/lib/CLHEP-2.4.1.0/../../include/CLHEP/Units/PhysicalConstants.h
@@ -1725,7 +1725,7 @@ DRsim/CMakeFiles/DRsim.dir/src/DRsimMaterials.cc.o
  /cvmfs/geant4.cern.ch/geant4/10.5.p01/x86_64-centos7-gcc8-opt-MT/include/Geant4/globals.hh
  /cvmfs/geant4.cern.ch/geant4/10.5.p01/x86_64-centos7-gcc8-opt-MT/include/Geant4/templates.hh
  /cvmfs/geant4.cern.ch/geant4/10.5.p01/x86_64-centos7-gcc8-opt-MT/include/Geant4/tls.hh
- /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimMaterials.cc
+ /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimMaterials.cc
 DRsim/CMakeFiles/DRsim.dir/src/DRsimPrimaryGeneratorAction.cc.o
  ../DRsim/include/DRsimPrimaryGeneratorAction.hh
  ../DRsim/include/DRsimRunAction.hh
@@ -2036,7 +2036,7 @@ DRsim/CMakeFiles/DRsim.dir/src/DRsimPrimaryGeneratorAction.cc.o
  /cvmfs/sft.cern.ch/lcg/releases/LCG_96b/hepmc3/3.1.2/x86_64-centos7-gcc8-opt/include/HepMC3/ReaderRootTree.h
  /cvmfs/sft.cern.ch/lcg/releases/LCG_96b/hepmc3/3.1.2/x86_64-centos7-gcc8-opt/include/HepMC3/Setup.h
  /cvmfs/sft.cern.ch/lcg/releases/LCG_96b/hepmc3/3.1.2/x86_64-centos7-gcc8-opt/include/HepMC3/Units.h
- /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimPrimaryGeneratorAction.cc
+ /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimPrimaryGeneratorAction.cc
 DRsim/CMakeFiles/DRsim.dir/src/DRsimRunAction.cc.o
  ../DRsim/include/DRsimEventAction.hh
  ../DRsim/include/DRsimRunAction.hh
@@ -2173,7 +2173,7 @@ DRsim/CMakeFiles/DRsim.dir/src/DRsimRunAction.cc.o
  /cvmfs/sft.cern.ch/lcg/releases/LCG_96b/hepmc3/3.1.2/x86_64-centos7-gcc8-opt/include/HepMC3/ReaderRootTree.h
  /cvmfs/sft.cern.ch/lcg/releases/LCG_96b/hepmc3/3.1.2/x86_64-centos7-gcc8-opt/include/HepMC3/Setup.h
  /cvmfs/sft.cern.ch/lcg/releases/LCG_96b/hepmc3/3.1.2/x86_64-centos7-gcc8-opt/include/HepMC3/Units.h
- /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimRunAction.cc
+ /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimRunAction.cc
 DRsim/CMakeFiles/DRsim.dir/src/DRsimSiPMHit.cc.o
  ../DRsim/include/DRsimSiPMHit.hh
  ../rootIO/include/DRsimInterface.h
@@ -2197,7 +2197,7 @@ DRsim/CMakeFiles/DRsim.dir/src/DRsimSiPMHit.cc.o
  /cvmfs/geant4.cern.ch/geant4/10.5.p01/x86_64-centos7-gcc8-opt-MT/include/Geant4/globals.hh
  /cvmfs/geant4.cern.ch/geant4/10.5.p01/x86_64-centos7-gcc8-opt-MT/include/Geant4/templates.hh
  /cvmfs/geant4.cern.ch/geant4/10.5.p01/x86_64-centos7-gcc8-opt-MT/include/Geant4/tls.hh
- /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimSiPMHit.cc
+ /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimSiPMHit.cc
 DRsim/CMakeFiles/DRsim.dir/src/DRsimSiPMSD.cc.o
  ../DRsim/include/DRsimDetectorConstruction.hh
  ../DRsim/include/DRsimMagneticField.hh
@@ -2492,7 +2492,7 @@ DRsim/CMakeFiles/DRsim.dir/src/DRsimSiPMSD.cc.o
  /cvmfs/geant4.cern.ch/geant4/10.5.p01/x86_64-centos7-gcc8-opt-MT/include/Geant4/templates.hh
  /cvmfs/geant4.cern.ch/geant4/10.5.p01/x86_64-centos7-gcc8-opt-MT/include/Geant4/tls.hh
  /cvmfs/geant4.cern.ch/geant4/10.5.p01/x86_64-centos7-gcc8-opt-MT/include/Geant4/trkdefs.hh
- /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimSiPMSD.cc
+ /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimSiPMSD.cc
 DRsim/CMakeFiles/DRsim.dir/src/DRsimSteppingAction.cc.o
  ../DRsim/include/DRsimEventAction.hh
  ../DRsim/include/DRsimSiPMHit.hh
@@ -2709,7 +2709,7 @@ DRsim/CMakeFiles/DRsim.dir/src/DRsimSteppingAction.cc.o
  /cvmfs/geant4.cern.ch/geant4/10.5.p01/x86_64-centos7-gcc8-opt-MT/include/Geant4/templates.hh
  /cvmfs/geant4.cern.ch/geant4/10.5.p01/x86_64-centos7-gcc8-opt-MT/include/Geant4/tls.hh
  /cvmfs/geant4.cern.ch/geant4/10.5.p01/x86_64-centos7-gcc8-opt-MT/include/Geant4/trkdefs.hh
- /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimSteppingAction.cc
+ /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimSteppingAction.cc
 DRsim/CMakeFiles/DRsim.dir/src/HepMCG4Interface.cc.o
  ../DRsim/include/HepMCG4Interface.hh
  /cvmfs/geant4.cern.ch/externals/clhep/2.4.1.0/x86_64-centos7-gcc8-opt/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/BasicVector3D.h
@@ -2998,7 +2998,7 @@ DRsim/CMakeFiles/DRsim.dir/src/HepMCG4Interface.cc.o
  /cvmfs/sft.cern.ch/lcg/releases/LCG_96b/hepmc3/3.1.2/x86_64-centos7-gcc8-opt/include/HepMC3/GenVertex_fwd.h
  /cvmfs/sft.cern.ch/lcg/releases/LCG_96b/hepmc3/3.1.2/x86_64-centos7-gcc8-opt/include/HepMC3/Setup.h
  /cvmfs/sft.cern.ch/lcg/releases/LCG_96b/hepmc3/3.1.2/x86_64-centos7-gcc8-opt/include/HepMC3/Units.h
- /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/HepMCG4Interface.cc
+ /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/HepMCG4Interface.cc
 DRsim/CMakeFiles/DRsim.dir/src/HepMCG4Reader.cc.o
  ../DRsim/include/HepMCG4Interface.hh
  ../DRsim/include/HepMCG4Reader.hh
@@ -3119,7 +3119,7 @@ DRsim/CMakeFiles/DRsim.dir/src/HepMCG4Reader.cc.o
  /cvmfs/sft.cern.ch/lcg/releases/LCG_96b/hepmc3/3.1.2/x86_64-centos7-gcc8-opt/include/HepMC3/ReaderRootTree.h
  /cvmfs/sft.cern.ch/lcg/releases/LCG_96b/hepmc3/3.1.2/x86_64-centos7-gcc8-opt/include/HepMC3/Setup.h
  /cvmfs/sft.cern.ch/lcg/releases/LCG_96b/hepmc3/3.1.2/x86_64-centos7-gcc8-opt/include/HepMC3/Units.h
- /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/HepMCG4Reader.cc
+ /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/HepMCG4Reader.cc
 DRsim/CMakeFiles/DRsim.dir/src/dimensionB.cc.o
  ../DRsim/include/dimensionB.hh
  /cvmfs/geant4.cern.ch/externals/clhep/2.4.1.0/x86_64-centos7-gcc8-opt/lib/CLHEP-2.4.1.0/../../include/CLHEP/Units/PhysicalConstants.h
@@ -3158,7 +3158,7 @@ DRsim/CMakeFiles/DRsim.dir/src/dimensionB.cc.o
  /cvmfs/geant4.cern.ch/geant4/10.5.p01/x86_64-centos7-gcc8-opt-MT/include/Geant4/globals.hh
  /cvmfs/geant4.cern.ch/geant4/10.5.p01/x86_64-centos7-gcc8-opt-MT/include/Geant4/templates.hh
  /cvmfs/geant4.cern.ch/geant4/10.5.p01/x86_64-centos7-gcc8-opt-MT/include/Geant4/tls.hh
- /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/dimensionB.cc
+ /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/dimensionB.cc
 DRsim/CMakeFiles/DRsim.dir/src/dimensionE.cc.o
  ../DRsim/include/dimensionE.hh
  /cvmfs/geant4.cern.ch/externals/clhep/2.4.1.0/x86_64-centos7-gcc8-opt/lib/CLHEP-2.4.1.0/../../include/CLHEP/Units/PhysicalConstants.h
@@ -3197,4 +3197,4 @@ DRsim/CMakeFiles/DRsim.dir/src/dimensionE.cc.o
  /cvmfs/geant4.cern.ch/geant4/10.5.p01/x86_64-centos7-gcc8-opt-MT/include/Geant4/globals.hh
  /cvmfs/geant4.cern.ch/geant4/10.5.p01/x86_64-centos7-gcc8-opt-MT/include/Geant4/templates.hh
  /cvmfs/geant4.cern.ch/geant4/10.5.p01/x86_64-centos7-gcc8-opt-MT/include/Geant4/tls.hh
- /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/dimensionE.cc
+ /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/dimensionE.cc

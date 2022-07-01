@@ -53,7 +53,11 @@ int main(int argc, char* argv[]) {
   TH1F* tE_SC = new TH1F("E_SC","E_{S}+E_{C};GeV;Evt",100,2.*low,2.*high); //em particle
   // TH1F* tE_SC = new TH1F("E_SC","(sE - chi*cE)/(1 - chi);GeV;Evt",100,low,high); // hardrons
   tE_SC->Sumw2(); tE_SC->SetLineColor(kBlack); tE_SC->SetLineWidth(2);
-    
+
+  TH1F* tE_CperS = new TH1F("E_CperS","E_{C}/E_{S};Ratio;Evt",100,0,2); //em particle
+  tE_CperS->Sumw2(); tE_CperS->SetLineColor(kBlack); tE_CperS->SetLineWidth(2);
+  // c/s histogram. I added.
+
   TH1F* tE_DR = new TH1F("E_DR","Dual-readout corrected Energy;GeV;Evt",100,low,high);
   tE_DR->Sumw2(); tE_DR->SetLineColor(kBlack); tE_DR->SetLineWidth(2);
   TH1F* tP_leak = new TH1F("Pleak","Momentum leak;MeV;Evt",100,0.,1000.*high);
@@ -221,6 +225,8 @@ int main(int argc, char* argv[]) {
     tE_SC->Fill(cE_tmp+sE_tmp);// em particle
     // tE_SC->Fill(functions::E_DR291(cE_tmp, sE_tmp)); // hardron
     
+    tE_CperS->Fill(cE_tmp/sE_tmp);// ratio of em, f_em
+
 
   } // event loop
   drInterface->close();
@@ -245,6 +251,8 @@ int main(int argc, char* argv[]) {
   statsE_C->SetTextColor(kBlue);
   statsE_C->SetY1NDC(.8); statsE_C->SetY2NDC(1.);
   c->SaveAs(filename+"_EcsHist.png");
+
+  tE_CperS->Draw("Hist"); c->SaveAs(filename+"_CperS.png");
 
   TF1* grE_C = new TF1("Cfit","gaus",low,high); grE_C->SetLineColor(kBlue);
   TF1* grE_S = new TF1("Sfit","gaus",low,high); grE_S->SetLineColor(kRed);

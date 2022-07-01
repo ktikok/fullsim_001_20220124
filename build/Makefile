@@ -48,10 +48,10 @@ RM = /cvmfs/sft.cern.ch/lcg/contrib/CMake/3.14.2/Linux-x86_64/bin/cmake -E remov
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout
+CMAKE_SOURCE_DIR = /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build
+CMAKE_BINARY_DIR = /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,9 +126,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

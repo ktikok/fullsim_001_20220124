@@ -43,10 +43,10 @@ RM = /cvmfs/sft.cern.ch/lcg/contrib/CMake/3.14.2/Linux-x86_64/bin/cmake -E remov
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout
+CMAKE_SOURCE_DIR = /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build
+CMAKE_BINARY_DIR = /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build
 
 # Include any dependencies generated for this target.
 include DRsim/CMakeFiles/DRsim.dir/depend.make
@@ -59,224 +59,224 @@ include DRsim/CMakeFiles/DRsim.dir/flags.make
 
 DRsim/CMakeFiles/DRsim.dir/DRsim.cc.o: DRsim/CMakeFiles/DRsim.dir/flags.make
 DRsim/CMakeFiles/DRsim.dir/DRsim.cc.o: ../DRsim/DRsim.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object DRsim/CMakeFiles/DRsim.dir/DRsim.cc.o"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DRsim.dir/DRsim.cc.o -c /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/DRsim.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object DRsim/CMakeFiles/DRsim.dir/DRsim.cc.o"
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DRsim.dir/DRsim.cc.o -c /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/DRsim.cc
 
 DRsim/CMakeFiles/DRsim.dir/DRsim.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DRsim.dir/DRsim.cc.i"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/DRsim.cc > CMakeFiles/DRsim.dir/DRsim.cc.i
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/DRsim.cc > CMakeFiles/DRsim.dir/DRsim.cc.i
 
 DRsim/CMakeFiles/DRsim.dir/DRsim.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DRsim.dir/DRsim.cc.s"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/DRsim.cc -o CMakeFiles/DRsim.dir/DRsim.cc.s
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/DRsim.cc -o CMakeFiles/DRsim.dir/DRsim.cc.s
 
 DRsim/CMakeFiles/DRsim.dir/src/DRsimActionInitialization.cc.o: DRsim/CMakeFiles/DRsim.dir/flags.make
 DRsim/CMakeFiles/DRsim.dir/src/DRsimActionInitialization.cc.o: ../DRsim/src/DRsimActionInitialization.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object DRsim/CMakeFiles/DRsim.dir/src/DRsimActionInitialization.cc.o"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DRsim.dir/src/DRsimActionInitialization.cc.o -c /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimActionInitialization.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object DRsim/CMakeFiles/DRsim.dir/src/DRsimActionInitialization.cc.o"
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DRsim.dir/src/DRsimActionInitialization.cc.o -c /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimActionInitialization.cc
 
 DRsim/CMakeFiles/DRsim.dir/src/DRsimActionInitialization.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DRsim.dir/src/DRsimActionInitialization.cc.i"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimActionInitialization.cc > CMakeFiles/DRsim.dir/src/DRsimActionInitialization.cc.i
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimActionInitialization.cc > CMakeFiles/DRsim.dir/src/DRsimActionInitialization.cc.i
 
 DRsim/CMakeFiles/DRsim.dir/src/DRsimActionInitialization.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DRsim.dir/src/DRsimActionInitialization.cc.s"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimActionInitialization.cc -o CMakeFiles/DRsim.dir/src/DRsimActionInitialization.cc.s
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimActionInitialization.cc -o CMakeFiles/DRsim.dir/src/DRsimActionInitialization.cc.s
 
 DRsim/CMakeFiles/DRsim.dir/src/DRsimCellParameterisation.cc.o: DRsim/CMakeFiles/DRsim.dir/flags.make
 DRsim/CMakeFiles/DRsim.dir/src/DRsimCellParameterisation.cc.o: ../DRsim/src/DRsimCellParameterisation.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object DRsim/CMakeFiles/DRsim.dir/src/DRsimCellParameterisation.cc.o"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DRsim.dir/src/DRsimCellParameterisation.cc.o -c /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimCellParameterisation.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object DRsim/CMakeFiles/DRsim.dir/src/DRsimCellParameterisation.cc.o"
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DRsim.dir/src/DRsimCellParameterisation.cc.o -c /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimCellParameterisation.cc
 
 DRsim/CMakeFiles/DRsim.dir/src/DRsimCellParameterisation.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DRsim.dir/src/DRsimCellParameterisation.cc.i"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimCellParameterisation.cc > CMakeFiles/DRsim.dir/src/DRsimCellParameterisation.cc.i
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimCellParameterisation.cc > CMakeFiles/DRsim.dir/src/DRsimCellParameterisation.cc.i
 
 DRsim/CMakeFiles/DRsim.dir/src/DRsimCellParameterisation.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DRsim.dir/src/DRsimCellParameterisation.cc.s"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimCellParameterisation.cc -o CMakeFiles/DRsim.dir/src/DRsimCellParameterisation.cc.s
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimCellParameterisation.cc -o CMakeFiles/DRsim.dir/src/DRsimCellParameterisation.cc.s
 
 DRsim/CMakeFiles/DRsim.dir/src/DRsimDetectorConstruction.cc.o: DRsim/CMakeFiles/DRsim.dir/flags.make
 DRsim/CMakeFiles/DRsim.dir/src/DRsimDetectorConstruction.cc.o: ../DRsim/src/DRsimDetectorConstruction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object DRsim/CMakeFiles/DRsim.dir/src/DRsimDetectorConstruction.cc.o"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DRsim.dir/src/DRsimDetectorConstruction.cc.o -c /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimDetectorConstruction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object DRsim/CMakeFiles/DRsim.dir/src/DRsimDetectorConstruction.cc.o"
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DRsim.dir/src/DRsimDetectorConstruction.cc.o -c /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimDetectorConstruction.cc
 
 DRsim/CMakeFiles/DRsim.dir/src/DRsimDetectorConstruction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DRsim.dir/src/DRsimDetectorConstruction.cc.i"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimDetectorConstruction.cc > CMakeFiles/DRsim.dir/src/DRsimDetectorConstruction.cc.i
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimDetectorConstruction.cc > CMakeFiles/DRsim.dir/src/DRsimDetectorConstruction.cc.i
 
 DRsim/CMakeFiles/DRsim.dir/src/DRsimDetectorConstruction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DRsim.dir/src/DRsimDetectorConstruction.cc.s"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimDetectorConstruction.cc -o CMakeFiles/DRsim.dir/src/DRsimDetectorConstruction.cc.s
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimDetectorConstruction.cc -o CMakeFiles/DRsim.dir/src/DRsimDetectorConstruction.cc.s
 
 DRsim/CMakeFiles/DRsim.dir/src/DRsimEventAction.cc.o: DRsim/CMakeFiles/DRsim.dir/flags.make
 DRsim/CMakeFiles/DRsim.dir/src/DRsimEventAction.cc.o: ../DRsim/src/DRsimEventAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object DRsim/CMakeFiles/DRsim.dir/src/DRsimEventAction.cc.o"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DRsim.dir/src/DRsimEventAction.cc.o -c /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimEventAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object DRsim/CMakeFiles/DRsim.dir/src/DRsimEventAction.cc.o"
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DRsim.dir/src/DRsimEventAction.cc.o -c /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimEventAction.cc
 
 DRsim/CMakeFiles/DRsim.dir/src/DRsimEventAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DRsim.dir/src/DRsimEventAction.cc.i"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimEventAction.cc > CMakeFiles/DRsim.dir/src/DRsimEventAction.cc.i
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimEventAction.cc > CMakeFiles/DRsim.dir/src/DRsimEventAction.cc.i
 
 DRsim/CMakeFiles/DRsim.dir/src/DRsimEventAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DRsim.dir/src/DRsimEventAction.cc.s"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimEventAction.cc -o CMakeFiles/DRsim.dir/src/DRsimEventAction.cc.s
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimEventAction.cc -o CMakeFiles/DRsim.dir/src/DRsimEventAction.cc.s
 
 DRsim/CMakeFiles/DRsim.dir/src/DRsimFilterParameterisation.cc.o: DRsim/CMakeFiles/DRsim.dir/flags.make
 DRsim/CMakeFiles/DRsim.dir/src/DRsimFilterParameterisation.cc.o: ../DRsim/src/DRsimFilterParameterisation.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object DRsim/CMakeFiles/DRsim.dir/src/DRsimFilterParameterisation.cc.o"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DRsim.dir/src/DRsimFilterParameterisation.cc.o -c /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimFilterParameterisation.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object DRsim/CMakeFiles/DRsim.dir/src/DRsimFilterParameterisation.cc.o"
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DRsim.dir/src/DRsimFilterParameterisation.cc.o -c /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimFilterParameterisation.cc
 
 DRsim/CMakeFiles/DRsim.dir/src/DRsimFilterParameterisation.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DRsim.dir/src/DRsimFilterParameterisation.cc.i"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimFilterParameterisation.cc > CMakeFiles/DRsim.dir/src/DRsimFilterParameterisation.cc.i
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimFilterParameterisation.cc > CMakeFiles/DRsim.dir/src/DRsimFilterParameterisation.cc.i
 
 DRsim/CMakeFiles/DRsim.dir/src/DRsimFilterParameterisation.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DRsim.dir/src/DRsimFilterParameterisation.cc.s"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimFilterParameterisation.cc -o CMakeFiles/DRsim.dir/src/DRsimFilterParameterisation.cc.s
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimFilterParameterisation.cc -o CMakeFiles/DRsim.dir/src/DRsimFilterParameterisation.cc.s
 
 DRsim/CMakeFiles/DRsim.dir/src/DRsimMagneticField.cc.o: DRsim/CMakeFiles/DRsim.dir/flags.make
 DRsim/CMakeFiles/DRsim.dir/src/DRsimMagneticField.cc.o: ../DRsim/src/DRsimMagneticField.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object DRsim/CMakeFiles/DRsim.dir/src/DRsimMagneticField.cc.o"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DRsim.dir/src/DRsimMagneticField.cc.o -c /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimMagneticField.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object DRsim/CMakeFiles/DRsim.dir/src/DRsimMagneticField.cc.o"
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DRsim.dir/src/DRsimMagneticField.cc.o -c /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimMagneticField.cc
 
 DRsim/CMakeFiles/DRsim.dir/src/DRsimMagneticField.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DRsim.dir/src/DRsimMagneticField.cc.i"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimMagneticField.cc > CMakeFiles/DRsim.dir/src/DRsimMagneticField.cc.i
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimMagneticField.cc > CMakeFiles/DRsim.dir/src/DRsimMagneticField.cc.i
 
 DRsim/CMakeFiles/DRsim.dir/src/DRsimMagneticField.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DRsim.dir/src/DRsimMagneticField.cc.s"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimMagneticField.cc -o CMakeFiles/DRsim.dir/src/DRsimMagneticField.cc.s
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimMagneticField.cc -o CMakeFiles/DRsim.dir/src/DRsimMagneticField.cc.s
 
 DRsim/CMakeFiles/DRsim.dir/src/DRsimMaterials.cc.o: DRsim/CMakeFiles/DRsim.dir/flags.make
 DRsim/CMakeFiles/DRsim.dir/src/DRsimMaterials.cc.o: ../DRsim/src/DRsimMaterials.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object DRsim/CMakeFiles/DRsim.dir/src/DRsimMaterials.cc.o"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DRsim.dir/src/DRsimMaterials.cc.o -c /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimMaterials.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object DRsim/CMakeFiles/DRsim.dir/src/DRsimMaterials.cc.o"
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DRsim.dir/src/DRsimMaterials.cc.o -c /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimMaterials.cc
 
 DRsim/CMakeFiles/DRsim.dir/src/DRsimMaterials.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DRsim.dir/src/DRsimMaterials.cc.i"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimMaterials.cc > CMakeFiles/DRsim.dir/src/DRsimMaterials.cc.i
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimMaterials.cc > CMakeFiles/DRsim.dir/src/DRsimMaterials.cc.i
 
 DRsim/CMakeFiles/DRsim.dir/src/DRsimMaterials.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DRsim.dir/src/DRsimMaterials.cc.s"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimMaterials.cc -o CMakeFiles/DRsim.dir/src/DRsimMaterials.cc.s
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimMaterials.cc -o CMakeFiles/DRsim.dir/src/DRsimMaterials.cc.s
 
 DRsim/CMakeFiles/DRsim.dir/src/DRsimPrimaryGeneratorAction.cc.o: DRsim/CMakeFiles/DRsim.dir/flags.make
 DRsim/CMakeFiles/DRsim.dir/src/DRsimPrimaryGeneratorAction.cc.o: ../DRsim/src/DRsimPrimaryGeneratorAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object DRsim/CMakeFiles/DRsim.dir/src/DRsimPrimaryGeneratorAction.cc.o"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DRsim.dir/src/DRsimPrimaryGeneratorAction.cc.o -c /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimPrimaryGeneratorAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object DRsim/CMakeFiles/DRsim.dir/src/DRsimPrimaryGeneratorAction.cc.o"
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DRsim.dir/src/DRsimPrimaryGeneratorAction.cc.o -c /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimPrimaryGeneratorAction.cc
 
 DRsim/CMakeFiles/DRsim.dir/src/DRsimPrimaryGeneratorAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DRsim.dir/src/DRsimPrimaryGeneratorAction.cc.i"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimPrimaryGeneratorAction.cc > CMakeFiles/DRsim.dir/src/DRsimPrimaryGeneratorAction.cc.i
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimPrimaryGeneratorAction.cc > CMakeFiles/DRsim.dir/src/DRsimPrimaryGeneratorAction.cc.i
 
 DRsim/CMakeFiles/DRsim.dir/src/DRsimPrimaryGeneratorAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DRsim.dir/src/DRsimPrimaryGeneratorAction.cc.s"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimPrimaryGeneratorAction.cc -o CMakeFiles/DRsim.dir/src/DRsimPrimaryGeneratorAction.cc.s
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimPrimaryGeneratorAction.cc -o CMakeFiles/DRsim.dir/src/DRsimPrimaryGeneratorAction.cc.s
 
 DRsim/CMakeFiles/DRsim.dir/src/DRsimRunAction.cc.o: DRsim/CMakeFiles/DRsim.dir/flags.make
 DRsim/CMakeFiles/DRsim.dir/src/DRsimRunAction.cc.o: ../DRsim/src/DRsimRunAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object DRsim/CMakeFiles/DRsim.dir/src/DRsimRunAction.cc.o"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DRsim.dir/src/DRsimRunAction.cc.o -c /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimRunAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object DRsim/CMakeFiles/DRsim.dir/src/DRsimRunAction.cc.o"
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DRsim.dir/src/DRsimRunAction.cc.o -c /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimRunAction.cc
 
 DRsim/CMakeFiles/DRsim.dir/src/DRsimRunAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DRsim.dir/src/DRsimRunAction.cc.i"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimRunAction.cc > CMakeFiles/DRsim.dir/src/DRsimRunAction.cc.i
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimRunAction.cc > CMakeFiles/DRsim.dir/src/DRsimRunAction.cc.i
 
 DRsim/CMakeFiles/DRsim.dir/src/DRsimRunAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DRsim.dir/src/DRsimRunAction.cc.s"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimRunAction.cc -o CMakeFiles/DRsim.dir/src/DRsimRunAction.cc.s
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimRunAction.cc -o CMakeFiles/DRsim.dir/src/DRsimRunAction.cc.s
 
 DRsim/CMakeFiles/DRsim.dir/src/DRsimSiPMHit.cc.o: DRsim/CMakeFiles/DRsim.dir/flags.make
 DRsim/CMakeFiles/DRsim.dir/src/DRsimSiPMHit.cc.o: ../DRsim/src/DRsimSiPMHit.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object DRsim/CMakeFiles/DRsim.dir/src/DRsimSiPMHit.cc.o"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DRsim.dir/src/DRsimSiPMHit.cc.o -c /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimSiPMHit.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object DRsim/CMakeFiles/DRsim.dir/src/DRsimSiPMHit.cc.o"
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DRsim.dir/src/DRsimSiPMHit.cc.o -c /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimSiPMHit.cc
 
 DRsim/CMakeFiles/DRsim.dir/src/DRsimSiPMHit.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DRsim.dir/src/DRsimSiPMHit.cc.i"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimSiPMHit.cc > CMakeFiles/DRsim.dir/src/DRsimSiPMHit.cc.i
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimSiPMHit.cc > CMakeFiles/DRsim.dir/src/DRsimSiPMHit.cc.i
 
 DRsim/CMakeFiles/DRsim.dir/src/DRsimSiPMHit.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DRsim.dir/src/DRsimSiPMHit.cc.s"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimSiPMHit.cc -o CMakeFiles/DRsim.dir/src/DRsimSiPMHit.cc.s
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimSiPMHit.cc -o CMakeFiles/DRsim.dir/src/DRsimSiPMHit.cc.s
 
 DRsim/CMakeFiles/DRsim.dir/src/DRsimSiPMSD.cc.o: DRsim/CMakeFiles/DRsim.dir/flags.make
 DRsim/CMakeFiles/DRsim.dir/src/DRsimSiPMSD.cc.o: ../DRsim/src/DRsimSiPMSD.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object DRsim/CMakeFiles/DRsim.dir/src/DRsimSiPMSD.cc.o"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DRsim.dir/src/DRsimSiPMSD.cc.o -c /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimSiPMSD.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object DRsim/CMakeFiles/DRsim.dir/src/DRsimSiPMSD.cc.o"
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DRsim.dir/src/DRsimSiPMSD.cc.o -c /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimSiPMSD.cc
 
 DRsim/CMakeFiles/DRsim.dir/src/DRsimSiPMSD.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DRsim.dir/src/DRsimSiPMSD.cc.i"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimSiPMSD.cc > CMakeFiles/DRsim.dir/src/DRsimSiPMSD.cc.i
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimSiPMSD.cc > CMakeFiles/DRsim.dir/src/DRsimSiPMSD.cc.i
 
 DRsim/CMakeFiles/DRsim.dir/src/DRsimSiPMSD.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DRsim.dir/src/DRsimSiPMSD.cc.s"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimSiPMSD.cc -o CMakeFiles/DRsim.dir/src/DRsimSiPMSD.cc.s
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimSiPMSD.cc -o CMakeFiles/DRsim.dir/src/DRsimSiPMSD.cc.s
 
 DRsim/CMakeFiles/DRsim.dir/src/DRsimSteppingAction.cc.o: DRsim/CMakeFiles/DRsim.dir/flags.make
 DRsim/CMakeFiles/DRsim.dir/src/DRsimSteppingAction.cc.o: ../DRsim/src/DRsimSteppingAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object DRsim/CMakeFiles/DRsim.dir/src/DRsimSteppingAction.cc.o"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DRsim.dir/src/DRsimSteppingAction.cc.o -c /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimSteppingAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object DRsim/CMakeFiles/DRsim.dir/src/DRsimSteppingAction.cc.o"
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DRsim.dir/src/DRsimSteppingAction.cc.o -c /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimSteppingAction.cc
 
 DRsim/CMakeFiles/DRsim.dir/src/DRsimSteppingAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DRsim.dir/src/DRsimSteppingAction.cc.i"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimSteppingAction.cc > CMakeFiles/DRsim.dir/src/DRsimSteppingAction.cc.i
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimSteppingAction.cc > CMakeFiles/DRsim.dir/src/DRsimSteppingAction.cc.i
 
 DRsim/CMakeFiles/DRsim.dir/src/DRsimSteppingAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DRsim.dir/src/DRsimSteppingAction.cc.s"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimSteppingAction.cc -o CMakeFiles/DRsim.dir/src/DRsimSteppingAction.cc.s
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/DRsimSteppingAction.cc -o CMakeFiles/DRsim.dir/src/DRsimSteppingAction.cc.s
 
 DRsim/CMakeFiles/DRsim.dir/src/HepMCG4Interface.cc.o: DRsim/CMakeFiles/DRsim.dir/flags.make
 DRsim/CMakeFiles/DRsim.dir/src/HepMCG4Interface.cc.o: ../DRsim/src/HepMCG4Interface.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object DRsim/CMakeFiles/DRsim.dir/src/HepMCG4Interface.cc.o"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DRsim.dir/src/HepMCG4Interface.cc.o -c /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/HepMCG4Interface.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object DRsim/CMakeFiles/DRsim.dir/src/HepMCG4Interface.cc.o"
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DRsim.dir/src/HepMCG4Interface.cc.o -c /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/HepMCG4Interface.cc
 
 DRsim/CMakeFiles/DRsim.dir/src/HepMCG4Interface.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DRsim.dir/src/HepMCG4Interface.cc.i"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/HepMCG4Interface.cc > CMakeFiles/DRsim.dir/src/HepMCG4Interface.cc.i
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/HepMCG4Interface.cc > CMakeFiles/DRsim.dir/src/HepMCG4Interface.cc.i
 
 DRsim/CMakeFiles/DRsim.dir/src/HepMCG4Interface.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DRsim.dir/src/HepMCG4Interface.cc.s"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/HepMCG4Interface.cc -o CMakeFiles/DRsim.dir/src/HepMCG4Interface.cc.s
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/HepMCG4Interface.cc -o CMakeFiles/DRsim.dir/src/HepMCG4Interface.cc.s
 
 DRsim/CMakeFiles/DRsim.dir/src/HepMCG4Reader.cc.o: DRsim/CMakeFiles/DRsim.dir/flags.make
 DRsim/CMakeFiles/DRsim.dir/src/HepMCG4Reader.cc.o: ../DRsim/src/HepMCG4Reader.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object DRsim/CMakeFiles/DRsim.dir/src/HepMCG4Reader.cc.o"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DRsim.dir/src/HepMCG4Reader.cc.o -c /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/HepMCG4Reader.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object DRsim/CMakeFiles/DRsim.dir/src/HepMCG4Reader.cc.o"
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DRsim.dir/src/HepMCG4Reader.cc.o -c /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/HepMCG4Reader.cc
 
 DRsim/CMakeFiles/DRsim.dir/src/HepMCG4Reader.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DRsim.dir/src/HepMCG4Reader.cc.i"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/HepMCG4Reader.cc > CMakeFiles/DRsim.dir/src/HepMCG4Reader.cc.i
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/HepMCG4Reader.cc > CMakeFiles/DRsim.dir/src/HepMCG4Reader.cc.i
 
 DRsim/CMakeFiles/DRsim.dir/src/HepMCG4Reader.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DRsim.dir/src/HepMCG4Reader.cc.s"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/HepMCG4Reader.cc -o CMakeFiles/DRsim.dir/src/HepMCG4Reader.cc.s
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/HepMCG4Reader.cc -o CMakeFiles/DRsim.dir/src/HepMCG4Reader.cc.s
 
 DRsim/CMakeFiles/DRsim.dir/src/dimensionB.cc.o: DRsim/CMakeFiles/DRsim.dir/flags.make
 DRsim/CMakeFiles/DRsim.dir/src/dimensionB.cc.o: ../DRsim/src/dimensionB.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object DRsim/CMakeFiles/DRsim.dir/src/dimensionB.cc.o"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DRsim.dir/src/dimensionB.cc.o -c /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/dimensionB.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object DRsim/CMakeFiles/DRsim.dir/src/dimensionB.cc.o"
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DRsim.dir/src/dimensionB.cc.o -c /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/dimensionB.cc
 
 DRsim/CMakeFiles/DRsim.dir/src/dimensionB.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DRsim.dir/src/dimensionB.cc.i"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/dimensionB.cc > CMakeFiles/DRsim.dir/src/dimensionB.cc.i
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/dimensionB.cc > CMakeFiles/DRsim.dir/src/dimensionB.cc.i
 
 DRsim/CMakeFiles/DRsim.dir/src/dimensionB.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DRsim.dir/src/dimensionB.cc.s"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/dimensionB.cc -o CMakeFiles/DRsim.dir/src/dimensionB.cc.s
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/dimensionB.cc -o CMakeFiles/DRsim.dir/src/dimensionB.cc.s
 
 DRsim/CMakeFiles/DRsim.dir/src/dimensionE.cc.o: DRsim/CMakeFiles/DRsim.dir/flags.make
 DRsim/CMakeFiles/DRsim.dir/src/dimensionE.cc.o: ../DRsim/src/dimensionE.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object DRsim/CMakeFiles/DRsim.dir/src/dimensionE.cc.o"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DRsim.dir/src/dimensionE.cc.o -c /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/dimensionE.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object DRsim/CMakeFiles/DRsim.dir/src/dimensionE.cc.o"
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DRsim.dir/src/dimensionE.cc.o -c /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/dimensionE.cc
 
 DRsim/CMakeFiles/DRsim.dir/src/dimensionE.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DRsim.dir/src/dimensionE.cc.i"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/dimensionE.cc > CMakeFiles/DRsim.dir/src/dimensionE.cc.i
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/dimensionE.cc > CMakeFiles/DRsim.dir/src/dimensionE.cc.i
 
 DRsim/CMakeFiles/DRsim.dir/src/dimensionE.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DRsim.dir/src/dimensionE.cc.s"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/dimensionE.cc -o CMakeFiles/DRsim.dir/src/dimensionE.cc.s
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim/src/dimensionE.cc -o CMakeFiles/DRsim.dir/src/dimensionE.cc.s
 
 # Object files for target DRsim
 DRsim_OBJECTS = \
@@ -384,8 +384,8 @@ DRsim/DRsim: /cvmfs/sft.cern.ch/lcg/releases/LCG_96b/ROOT/6.18.04/x86_64-centos7
 DRsim/DRsim: /cvmfs/sft.cern.ch/lcg/releases/LCG_96b/ROOT/6.18.04/x86_64-centos7-gcc8-opt/lib/libThread.so
 DRsim/DRsim: /cvmfs/sft.cern.ch/lcg/releases/LCG_96b/ROOT/6.18.04/x86_64-centos7-gcc8-opt/lib/libMultiProc.so
 DRsim/DRsim: DRsim/CMakeFiles/DRsim.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable DRsim"
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DRsim.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable DRsim"
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DRsim.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 DRsim/CMakeFiles/DRsim.dir/build: DRsim/DRsim
@@ -393,10 +393,10 @@ DRsim/CMakeFiles/DRsim.dir/build: DRsim/DRsim
 .PHONY : DRsim/CMakeFiles/DRsim.dir/build
 
 DRsim/CMakeFiles/DRsim.dir/clean:
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && $(CMAKE_COMMAND) -P CMakeFiles/DRsim.dir/cmake_clean.cmake
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim && $(CMAKE_COMMAND) -P CMakeFiles/DRsim.dir/cmake_clean.cmake
 .PHONY : DRsim/CMakeFiles/DRsim.dir/clean
 
 DRsim/CMakeFiles/DRsim.dir/depend:
-	cd /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim /fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim/CMakeFiles/DRsim.dir/DependInfo.cmake --color=$(COLOR)
+	cd /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/DRsim /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim /fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/build/DRsim/CMakeFiles/DRsim.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : DRsim/CMakeFiles/DRsim.dir/depend
 

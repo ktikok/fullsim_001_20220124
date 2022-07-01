@@ -6,5 +6,5 @@ CXX_FLAGS = -O2 -g -DNDEBUG   -std=gnu++17
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/Reco/include -I/cvmfs/sft.cern.ch/lcg/releases/LCG_96b/fastjet/3.3.2/x86_64-centos7-gcc8-opt/include -I/fcc/tikim/0hep_fcc_dual_readout_001_2022_01_24/dual-readout/rootIO/include -I/cvmfs/sft.cern.ch/lcg/releases/LCG_96b/ROOT/6.18.04/x86_64-centos7-gcc8-opt/include 
+CXX_INCLUDES = -I/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/Reco/include -I/cvmfs/sft.cern.ch/lcg/releases/LCG_96b/fastjet/3.3.2/x86_64-centos7-gcc8-opt/include -I/fcc/tikim/hep_fcc_dual_readout_001_2022_01_24/dual-readout/rootIO/include -I/cvmfs/sft.cern.ch/lcg/releases/LCG_96b/ROOT/6.18.04/x86_64-centos7-gcc8-opt/include 
 

@@ -24,10 +24,10 @@ using namespace std;
 G4ThreadLocal DRsimMagneticField* DRsimDetectorConstruction::fMagneticField = 0;
 G4ThreadLocal G4FieldManager* DRsimDetectorConstruction::fFieldMgr = 0;
 
-// int DRsimDetectorConstruction::sNumBarrel = 52;
-int DRsimDetectorConstruction::sNumBarrel = 1;
-// int DRsimDetectorConstruction::sNumEndcap = 40;
-int DRsimDetectorConstruction::sNumEndcap = 1;
+int DRsimDetectorConstruction::sNumBarrel = 52;
+// int DRsimDetectorConstruction::sNumBarrel = 1;
+int DRsimDetectorConstruction::sNumEndcap = 40;
+// int DRsimDetectorConstruction::sNumEndcap = 1;
 int DRsimDetectorConstruction::sNumZRot = 283;
 
 

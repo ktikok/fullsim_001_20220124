@@ -43,6 +43,11 @@ G4bool DRsimSiPMSD::ProcessHits(G4Step* step, G4TouchableHistory*) {
 
   DRsimSiPMHit* hit = NULL;
 
+  std::cout << "1 " << step->GetTrack()->GetOriginTouchable()->GetVolume(0)->GetLogicalVolume()->GetMaterial()->GetName() << std::endl; 
+  std::cout << "2 " << step->GetTrack()->GetOriginTouchable()->GetVolume(1)->GetLogicalVolume()->GetMaterial()->GetName() << std::endl; 
+  std::cout << "3 " << step->GetTrack()->GetOriginTouchable()->GetVolume(2)->GetLogicalVolume()->GetMaterial()->GetName() << std::endl; 
+  // to see materials
+
   for (G4int i = 0; i < nofHits; i++) {
     if ( (*fHitCollection)[i]->GetSiPMnum()==SiPMnum && (*fHitCollection)[i]->GetTowerTheta()==fTowerTheta && (*fHitCollection)[i]->GetTowerPhi().first==towerPhi) {
       hit = (*fHitCollection)[i];

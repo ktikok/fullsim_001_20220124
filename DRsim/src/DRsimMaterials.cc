@@ -61,20 +61,21 @@ void DRsimMaterials::CreateMaterials() {
   // fCu = new G4Material("Copper", z=29., a=63.546*g/mole, density=8.96*g/cm3);
   // look "https://www.ciaaw.org/index.htm" for standard atomic weight
   // look here too "https://pdg.lbl.gov/2021/AtomicNuclearProperties/"
-  // fCu = new G4Material("Copper", z=29., a=63.546*g/mole, density=8.96*g/cm3);
-  // fPb = new G4Material("Lead", z=82., a=207.2*g/mole, density=11.35*g/cm3);
-  // fW = new G4Material("Tungsten", z=74., a=183.84*g/mole, density=19.3*g/cm3);
-  // fFe = new G4Material("Iron", z=26., a=55.845*g/mole, density=7.874*g/cm3);
+  fCu = new G4Material("Copper", z=29., a=63.546*g/mole, density=8.96*g/cm3);
+  fPb = new G4Material("Lead", z=82., a=207.2*g/mole, density=11.35*g/cm3);
+  fW = new G4Material("Tungsten", z=74., a=183.84*g/mole, density=19.3*g/cm3);
+  fFe = new G4Material("Iron", z=26., a=55.845*g/mole, density=7.874*g/cm3);
   fCuZn37 = new G4Material("Brass", density=8.44*g/cm3, 2);
   //a = 63.546*g/mole;
   //G4Element* elCu = new G4Element("Copper", symbol="Cu", z=29., a); //Copper
 
-  G4Element* elCu = fNistMan->FindOrBuildElement(29, true);
+  auto elCu = fNistMan->FindOrBuildElement(29, true);
   //a = 65.38*g/mole;
   //G4Element* elZn = new G4Element("Zinc", symbol="Zn", z=30., a); //Zinc
-  G4Element* elZn = fNistMan->FindOrBuildElement(30, true);
+  auto elZn = fNistMan->FindOrBuildElement(30, true);
   fCuZn37->AddElement(elCu, 0.7);
   fCuZn37->AddElement(elZn, 0.3);
+  // ------------------------------------------------
 
   fSi = new G4Material("Silicon", z=14., a=28.09*g/mole, density=2.33*g/cm3);
 

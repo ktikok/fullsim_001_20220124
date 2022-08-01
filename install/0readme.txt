@@ -1,6 +1,7 @@
 # after git clone
 source setenv-cc7-gcc8.sh
 mkdir build
+mkdir install
 cd build
 cmake ..
 make -j12
